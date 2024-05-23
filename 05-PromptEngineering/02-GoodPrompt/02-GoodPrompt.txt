@@ -1,0 +1,17 @@
+A good prompt has 2 main elements: the goal and context. The context can be split into 2 separate types of context:
+The role and other context. THe role is optional and not needed for all prompts. The other context you can add
+extra information or extra constraints to your prompt.
+
+For example:
+You are an experienced Twitter user, known for posting highly engaging tweets that leads users to
+like or retweet the posted tweets.
+
+Write a tweet about hiking.
+
+The tweet should use no more than 2 emojis and target nature enthusiasts. It should highlight two 
+advantages of going on a hike regularly.
+
+
+--------------
+The response:
+Breathe in the fresh air and let nature heal your soul. 🌲✨ Hiking regularly boosts your mental clarity and strengthens your body. Embrace the great outdoors! #NatureLovers #HikingAdventures
