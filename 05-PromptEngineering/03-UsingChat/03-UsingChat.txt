@@ -1,0 +1,10 @@
+This is continuing on from 02-GoodPrompt:
+
+It's a chat, tell ChatGPT which part needs adjustment.
+
+For example:
+Add a personal touch or note to the tweet and also encourage readers to share
+their hiking stories.
+
+The response:
+Breathe in the fresh air and let nature heal your soul. 🌲✨ Hiking regularly boosts your mental clarity and strengthens your body. I always feel so rejuvenated after a hike! What's your favorite hiking memory? Share your stories below! #NatureLovers #HikingAdventures
