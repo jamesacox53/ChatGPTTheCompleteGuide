@@ -1,0 +1,20 @@
+I asked Copilot:
+How did the Nvidia stock perform over the last 3 years?
+
+The response:
+Certainly! Over the past three years, **NVIDIA Corporation (NVDA)** has seen significant fluctuations in its stock price. Let's break it down:
+
+1. **2022**: The stock price started the year at around $300.78 and ended at approximately $146.07, resulting in a **50.27% decline**.
+2. **2023**: This year was remarkable for NVIDIA, with the stock price soaring from around $143.08 to about $495.20, representing an impressive **239.02% increase**.
+3. **2024 (up to May 16)**: The stock continued its upward trajectory, reaching a closing price of $943.59. This translates to a whopping **90.55% gain** in just a few months¹.
+
+In summary, NVIDIA's stock performance has been quite volatile, but the overall trend has been positive. Keep in mind that stock prices can be influenced by various factors, including market conditions, company performance, and industry trends. Always consult a financial advisor for personalized investment advice! 📈🚀
+
+For more detailed historical data, you can check out the [NVIDIA stock price history](https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history) on MacroTrends or explore the [Nasdaq historical data](https://www.nasdaq.com/market-activity/stocks/nvda/historical)²³. 😊
+
+Source: Conversation with Copilot, 23/05/2024
+(1) NVIDIA Corp. https://bing.com/search?q=Nvidia+stock+performance+last+3+years.
+(2) NVIDIA - 25 Year Stock Price History | NVDA | MacroTrends. https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history.
+(3) NVIDIA Corporation Common Stock (NVDA) Historical Data | Nasdaq. https://www.nasdaq.com/market-activity/stocks/nvda/historical.
+(4) NVIDIA (NVDA) Total Return YTD, TTM, 3Y, 5Y, 10Y, 20Y Chart - NVDA .... https://www.financecharts.com/stocks/NVDA/performance/total-return.
+(5) Up 3x Over The Past Year, Will Q4 Beat Drive Nvidia Stock Higher .... https://www.nasdaq.com/articles/up-3x-over-the-past-year-will-q4-beat-drive-nvidia-stock-higher.
