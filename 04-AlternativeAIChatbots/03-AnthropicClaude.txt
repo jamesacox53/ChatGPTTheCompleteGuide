@@ -1,0 +1,11 @@
+I asked Gemini:
+How did the Nvidia stock perform over the last 3 years?
+
+The response:
+Unfortunately, I don't have up-to-date information on Nvidia's stock performance after August 2023, since my knowledge base only goes up until then. However, I can provide an overview of how Nvidia's stock performed in the years leading up to August 2023.
+
+Nvidia had a very strong run from 2020 through much of 2022, driven by high demand for its graphics processors used in gaming, data centers, and artificial intelligence applications. Its stock price rose from around $60 in early 2020 to an all-time high close to $350 in November 2021.
+
+However, in 2022 Nvidia faced headwinds from supply chain issues, rising inflation and interest rates, and a cooldown in demand for consumer graphics cards. Its stock pulled back significantly, trading in the $130-180 range for much of 2022 and into early 2023.
+
+Without more recent data, I can't comment definitively on how Nvidia's stock fared from late 2023 through May 2024 when you're asking about it. The performance would depend on factors like Nvidia's financial results, AI and data center growth, competition from rivals like AMD, macroeconomic conditions and more. But I'd be happy to provide more context on Nvidia's situation circa August 2023 if that would still be useful.
