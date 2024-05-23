@@ -1,0 +1,5 @@
+I attached the image of the book to the chat and asked ChatGPT:
+Who is the author of this book?
+
+ChatGPT's response:
+The author of the book "React Key Concepts" is Maximilian Schwarzmüller.
