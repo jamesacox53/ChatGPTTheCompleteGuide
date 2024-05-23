@@ -1,0 +1,16 @@
+I asked Gemini:
+How did the Nvidia stock perform over the last 3 years?
+
+The response:
+Nvidia stock has been a high performer over the last 3 years. Here's a general overview:
+
+Significant growth:  Articles point to a significant increase,  possibly around 2,500% growth in the past five years, which would mean substantial growth in the last 3 years as well [1].
+
+All-time high: On May 22nd, 2024, Nvidia reached an all-time high closing price [2].
+
+Booming AI sector: The growth is attributed to Nvidia's strong position in the booming artificial intelligence (AI) sector, with their graphics processing units (GPUs) being vital for AI applications [4].
+
+For a more precise picture, you can check resources like:
+
+Stock price history websites: These websites provide historical data on closing prices, allowing you to see the exact growth over the last 3 years [2].
+Financial news articles: Articles discussing Nvidia's performance often mention growth percentages [1].
