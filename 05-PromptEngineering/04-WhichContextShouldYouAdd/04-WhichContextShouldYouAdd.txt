@@ -1,0 +1,13 @@
+Whatever context you are adding you should provide short focused sentences.
+At the moment this performs better than bullet points.
+Remove anything not needed from the prompt as it could distract ChatGPT.
+
+For many prompts you want to define the target audience. That helps ChatGPT
+refine the response towards the target audience.
+
+You might want to control the tone, style & length of the output. If it should be
+friendly or very determined. Or if it should be very long or very short. You can
+define how many characters you want in that result.
+
+You can control the output format: text, JSON, unformatted markdown ... The default
+is text.
