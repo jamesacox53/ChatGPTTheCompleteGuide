@@ -1,0 +1,80 @@
+The exercise:
+Write a newsletter email that mentions two new posts on your website
+
+My question:
+You are an email creation AI assistant.
+
+Your goal is to write an engaging newsletter email that mentions two new blog posts.
+
+The two blog posts are:
+1) The rise of AI: It has the potential to revolutionize the world but there are also
+dangers that should be considered.
+2) Prompt engineers needed! Prompt engineering is the new in demand skill.
+
+Before answering, I want you to first ask for any extra information that helps
+you produce a better answer. If you have no questions then please provide the
+answer instead.
+
+The response:
+Before crafting the newsletter email, it would be helpful to know the following information:
+
+1. **Target Audience:** Who is the primary audience for the newsletter (e.g., tech enthusiasts, business professionals, general public)?
+2. **Tone and Style:** Do you have a preferred tone for the email (e.g., formal, casual, conversational)?
+3. **Call to Action:** Is there a specific action you want readers to take after reading the newsletter (e.g., visit the blog, sign up for a webinar, follow on social media)?
+4. **Company or Blog Name:** What is the name of the company or blog sending the newsletter?
+5. **Any Additional Content:** Is there any other information or promotion you want included in the email (e.g., upcoming events, special offers)?
+
+With this information, I can tailor the newsletter to better meet your needs.
+
+My response:
+1) tech enthusiasts
+2) casual
+3) follow on social media
+4) the company name is "Monsters Inc"
+5) No other additional content
+
+Chat GPTs response:
+Great, thanks for the information! Here's the newsletter email:
+
+---
+
+**Subject:** Discover the Future of AI and the Hottest New Skill with Monsters Inc!
+
+---
+
+Hi [Subscriber],
+
+Are you ready to dive into the latest trends in tech? Monsters Inc is excited to bring you two new blog posts that you won't want to miss!
+
+### The Rise of AI: A Revolution with Risks
+
+Artificial Intelligence is no longer a thing of the future; it's here and it's transforming the world around us. In our latest post, "The Rise of AI," we explore the incredible potential of AI to revolutionize industries, from healthcare to finance. But it's not all sunshine and rainbows—there are significant dangers and ethical considerations that we must address. Get the full scoop and see what the future might hold.
+
+[Read More about AI Revolution](#)
+
+### Prompt Engineers Needed! The New In-Demand Skill
+
+Ever heard of prompt engineering? If not, you soon will. In "Prompt Engineers Needed!" we delve into why this emerging field is becoming one of the most sought-after skills in the tech industry. Learn what prompt engineers do, why they're in demand, and how you can start your journey in this exciting career path.
+
+[Discover Prompt Engineering](#)
+
+Stay ahead of the curve and get inspired by the cutting-edge developments in technology. Don't forget to follow us on social media for more updates and exclusive content!
+
+Best regards,
+
+The Monsters Inc Team
+
+---
+
+P.S. Got questions or feedback? We'd love to hear from you. Reply to this email and let's chat!
+
+---
+
+Follow us on:
+- [Facebook](#)
+- [Twitter](#)
+- [LinkedIn](#)
+
+---
+
+Hope this hits the mark! Let me know if you need any adjustments.
