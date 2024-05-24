@@ -1,0 +1,53 @@
+You can ask ChatGPT to help you with prompting and give you more prompting
+techniques that you can use. For example you can have the prompt:
+
+You are an experienced ChatGPT user. You aim to write the best possible prompts in order
+to get the best possible results from ChatGPT.
+
+Give me a list of 10 useful ChatGPT prompting techniques.
+
+Describe the technique and provide a short example for every prompting technique.
+Here's an example technique:
+Contextual prompting: Add extra information on cultural,historical, or situational
+factors that should be taken into account as part of the response.
+
+ChatGPTs response:
+1. **Open-ended Questions:** Craft prompts that encourage expansive responses rather than simple yes/no answers. This allows ChatGPT to provide richer and more detailed responses.
+
+   *Example:* "Can you explain the concept of quantum entanglement and its implications in the field of quantum mechanics?"
+
+2. **Scenario-based Prompts:** Present ChatGPT with a specific scenario or situation to evoke responses tailored to that context.
+
+   *Example:* "Imagine you're a marketing manager launching a new product. How would you devise a marketing strategy to target millennials?"
+
+3. **Comparison Prompts:** Prompt ChatGPT to compare and contrast different ideas, concepts, or approaches, which can lead to insightful analyses.
+
+   *Example:* "Compare and contrast the advantages and disadvantages of nuclear energy and renewable energy sources."
+
+4. **Problem-solving Prompts:** Present ChatGPT with a problem or challenge and ask for potential solutions or strategies to address it.
+
+   *Example:* "You're a city planner tasked with reducing traffic congestion. What innovative solutions would you propose?"
+
+5. **Hypothetical Scenarios:** Encourage ChatGPT to speculate or imagine hypothetical situations, fostering creativity and critical thinking.
+
+   *Example:* "If humans were able to colonize Mars, what do you think would be the biggest challenges they'd face in sustaining life there?"
+
+6. **Socratic Questioning:** Pose thought-provoking questions that stimulate deeper reflection or exploration of a topic.
+
+   *Example:* "What do you think Socrates meant when he said, 'The only true wisdom is in knowing you know nothing'? How does this idea apply to learning and knowledge?"
+
+7. **Prediction Tasks:** Task ChatGPT with making predictions or forecasts based on given data or trends, fostering predictive analysis skills.
+
+   *Example:* "Based on current climate change projections, what do you predict will be the environmental impact on coastal regions by 2050?"
+
+8. **Role-playing Prompts:** Engage ChatGPT in role-playing scenarios to explore different perspectives or viewpoints.
+
+   *Example:* "Pretend you're a historical figure witnessing the signing of the Declaration of Independence. Describe your thoughts and emotions."
+
+9. **Argumentative Prompts:** Encourage ChatGPT to present arguments for or against a particular stance, promoting logical reasoning and persuasive writing skills.
+
+   *Example:* "Argue for or against the statement: 'Social media has had a net positive impact on society.'"
+
+10. **Personalized Prompts:** Tailor prompts to incorporate personal experiences, opinions, or preferences, fostering a more human-like interaction.
+
+    *Example:* "Tell me about a memorable travel experience you've had and how it influenced your perspective on different cultures."
