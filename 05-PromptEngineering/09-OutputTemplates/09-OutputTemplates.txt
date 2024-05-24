@@ -1,0 +1,40 @@
+You can also provide an output template to ChatGPT. For example:
+Give me five great travel destinations for this summer.
+
+Format your response like this:
+Location:
+Best time to visit:
+Avg. temperature (Celsius):
+Hours of Sunshine:
+Rainy Days per Month:
+
+The response:
+Location: Santorini, Greece
+Best time to visit: June to September
+Avg. temperature (Celsius): 25-30°C
+Hours of Sunshine: 11-12 hours
+Rainy Days per Month: 0-1
+
+Location: Kyoto, Japan
+Best time to visit: March to May, September to November
+Avg. temperature (Celsius): 20-25°C
+Hours of Sunshine: 5-6 hours
+Rainy Days per Month: 10-12
+
+Location: Banff National Park, Canada
+Best time to visit: June to August
+Avg. temperature (Celsius): 15-20°C
+Hours of Sunshine: 7-8 hours
+Rainy Days per Month: 6-8
+
+Location: Amalfi Coast, Italy
+Best time to visit: May to September
+Avg. temperature (Celsius): 25-30°C
+Hours of Sunshine: 9-10 hours
+Rainy Days per Month: 3-5
+
+Location: Queenstown, New Zealand
+Best time to visit: December to February
+Avg. temperature (Celsius): 20-25°C
+Hours of Sunshine: 7-8 hours
+Rainy Days per Month: 7-10
