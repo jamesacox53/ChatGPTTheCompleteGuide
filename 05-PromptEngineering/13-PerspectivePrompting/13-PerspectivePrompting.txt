@@ -1,0 +1,53 @@
+Perspective Prompting is where you let ChatGPT assume different perspectives as it
+generates it's response and it's output. There is No Perspective, Single Perspective and
+Multiple Perspectives.
+
+Single Perspective is where you create a prompt like:
+"Create a travel itinerary for a 2-week yoga retreat in Austria from the perspective
+of a yoga trainer."
+
+This is just adding a role to the prompt written in a different way. We could have wrote:
+"You are a Yoga trainer.
+
+"Create a travel itinerary for a 2-week yoga retreat in Austria."
+
+----------
+
+You can also use Multiple Perspectives. For example:
+"Create a travel itinerary for a 2-week yoga retreat in Austria from the perspective
+of a yoga proponent and opponent."
+
+By using Multiple Perspectives you let ChatGPT have a discussion about a certain topic.
+Or in this case create different plans for different people. We basically want ChatGPT
+to take different perspectives on a topic.
+We could prompt:
+Discuss the pros and cons of travelling by plane.
+
+We get the response:
+Sure, let's break down the pros and cons of traveling by plane:
+
+**Pros:**
+
+1. **Speed:** Air travel is often the fastest mode of transportation for long distances. It allows you to cover vast distances in a fraction of the time compared to other modes of transportation like driving or taking a train.
+
+2. **Accessibility:** Air travel opens up opportunities to visit destinations around the world that might otherwise be difficult or time-consuming to reach by other means. It connects distant cities and countries, making the world more accessible for travelers.
+
+3. **Comfort:** Many airlines offer amenities and services to enhance the comfort of passengers during flights, such as reclining seats, entertainment systems, and in-flight meals. Business and first-class cabins often provide additional comfort features.
+
+4. **Safety:** Despite occasional incidents, air travel is statistically one of the safest modes of transportation. Airlines adhere to strict safety regulations and procedures to ensure the safety of passengers.
+
+5. **Efficiency:** Airports and airlines have streamlined processes for check-in, security screening, and boarding, making air travel relatively efficient compared to other modes of transportation.
+
+**Cons:**
+
+1. **Cost:** Air travel can be expensive, especially for long-haul flights or during peak travel seasons. Ticket prices can fluctuate based on demand, and additional fees for baggage, seat selection, and other services can add to the overall cost.
+
+2. **Environmental Impact:** Air travel contributes to greenhouse gas emissions and climate change. Aircraft engines release carbon dioxide, nitrogen oxides, and other pollutants into the atmosphere, making it one of the most carbon-intensive forms of transportation per passenger mile.
+
+3. **Security Concerns:** Airports have stringent security measures in place, which can lead to long wait times and inconvenience for passengers. Additionally, the threat of terrorism or other security incidents can create anxiety for travelers.
+
+4. **Discomfort:** While some airlines prioritize passenger comfort, others may offer cramped seating, limited legroom, and minimal amenities, especially on budget or economy-class flights. Long flights can be physically uncomfortable and tiring for passengers.
+
+5. **Delays and Disruptions:** Flights can be delayed or canceled due to various reasons such as inclement weather, technical issues, air traffic congestion, or labor strikes. These disruptions can cause inconvenience and uncertainty for travelers, impacting their schedules and plans.
+
+Overall, while air travel offers unparalleled speed and accessibility, it also comes with drawbacks such as cost, environmental impact, and potential discomfort or inconvenience. Balancing these factors is essential for travelers when deciding whether to choose air travel for their journeys.
