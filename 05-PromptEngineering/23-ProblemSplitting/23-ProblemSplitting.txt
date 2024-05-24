@@ -1,0 +1,3 @@
+We have seen before that we can manually split up a large problem but we can also
+get ChatGPT to split up a problem. You can type:
+"Split this task into multiple steps and then start with the first step."
