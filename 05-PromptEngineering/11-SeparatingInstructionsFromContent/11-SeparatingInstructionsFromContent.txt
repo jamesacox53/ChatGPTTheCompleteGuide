@@ -1,0 +1,13 @@
+Sometimes ChatGPT can get confused when you provide an article. It can get confused
+between the instructions and the article. So you can wrap the article in """ or ---
+to make ChatGPT know that this is the article and everything else is the instructions.
+For example:
+
+Summarize the below article article:
+"""
+...
+"""
+
+Summarize the above article, starting like this:
+The key takeaways of the article are:
+-
