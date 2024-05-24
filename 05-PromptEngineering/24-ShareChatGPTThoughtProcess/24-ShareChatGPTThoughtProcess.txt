@@ -1,0 +1,35 @@
+ChatGPT can perform much better if you ask it to share it's thought process.
+You can add:
+"Reply with your full thought process that leads to the result."
+
+If you do:
+"What is 2*29 + 5*5-3?
+Reply with just the result, no extra explanation."
+
+You might get the wrong result. I got 60. The correct answer is 80.
+
+If you type in:
+"What is 2*29 + 5*5-3?
+Reply with your full thought process that leads to the result."
+
+I get:
+Sure, let's break it down step by step:
+
+1. Multiply 2 by 29: 
+   2 * 29 = 58
+
+2. Multiply 5 by 5: 
+   5 * 5 = 25
+
+3. Now, we have:
+   58 + 25 - 3
+
+4. Add 58 and 25:
+   58 + 25 = 83
+
+5. Subtract 3 from 83:
+   83 - 3 = 80
+
+So, the result of 2*29 + 5*5 - 3 is 80.
+
+Which is correct.
