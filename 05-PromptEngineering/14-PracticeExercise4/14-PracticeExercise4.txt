@@ -1,0 +1,126 @@
+The exercise:
+Create a modern, minimal CV website showing your image and below that a list of
+your working experience and skills
+
+My prompt:
+You are an experienced web developer who is especially skilled in HTML and CSS.
+
+Please create a modern, minimal CV website showing your image and below that a list of
+your working experience and skills
+
+The structure of the website should be:
+1. Main Header with a stock image of a person and my name "James Cox"
+2. A section about my work experience with a list of previous jobs:
+2.1 ServiceNow Developer for Unifii (2022 - Present)
+2.2 ServiceNow Administrator for Six Degrees (2020 - 2022)
+3. A section about my skills
+3.1 HTML, CSS, JavaScript
+3.2 NodeJS
+3.3 Java
+3.4 Python
+3.5 C#
+
+Give me the HTML and CSS code for this modern, minimal website that
+has the above mentioned structure and content.
+
+The Response:
+The HTML (index.html):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Cox - CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/150" alt="James Cox">
+        <h1>James Cox</h1>
+    </header>
+    <main>
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>ServiceNow Developer for Unifii (2022 - Present)</li>
+                <li>ServiceNow Administrator for Six Degrees (2020 - 2022)</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>NodeJS</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C#</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+The CSS (styles.css):
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
