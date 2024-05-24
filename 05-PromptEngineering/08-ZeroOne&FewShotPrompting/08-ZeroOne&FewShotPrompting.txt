@@ -1,0 +1,14 @@
+You might want to provide examples to help ChatGPT's output.
+
+Zero-Shot is where you provide no examples.
+
+One-Shot is where you provide one example. For example:
+Write a tweet that explains the core idea behind ChatGPT. Use a similar tone &
+structure as I do in my regular tweets. But don't use the content. Here's an example:
+...
+
+Few-Shot is where you provide multiple example. For example:
+Write a tweet that explains the core idea behind ChatGPT. Use a similar tone &
+structure as I do in my regular tweets. But don't use the content. Here
+are two example tweets:
+...
