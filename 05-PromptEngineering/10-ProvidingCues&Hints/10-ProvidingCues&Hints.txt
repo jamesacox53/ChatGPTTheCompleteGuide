@@ -1,0 +1,9 @@
+You can add Cues and hints to the prompts to help ChatGPT. For example:
+You are an AI assistant that specializes in summarizing articles.
+
+Summarize the below article article:
+...
+
+Summarize the above article, starting like this:
+The key takeaways of the article are:
+-
