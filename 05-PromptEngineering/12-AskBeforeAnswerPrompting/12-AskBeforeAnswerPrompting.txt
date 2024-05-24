@@ -1,0 +1,37 @@
+The Ask before answering techique is the same as before where you have
+a role, a goal and Constraints & Information. But here you also write:
+
+"Before answering, I want you to first ask for any extra information that helps
+you produce a better answer. If you have no questions then please provide the
+answer instead."
+
+I used the prompt:
+You are a software developer.
+
+Please write an email to a colleague that you need feedback on your submitted prototype for the end of the week.
+
+The prototype is some code you wrote for a software integration. The email should be friendly. The email should be short and concise. The colleague is tech savvy.
+
+Before answering, I want you to first ask for any extra information that helps you produce a better answer. If you have no questions then please provide the answer instead.
+
+ChatGPT asked me:
+Could you please clarify if there are any specific areas or features you would like feedback on, or any particular aspects you're concerned about?
+
+I said:
+Could I get feedback on the code structure and if there is a better way to create the integration?
+
+This was ChatGPTs response:
+Subject: Feedback Needed on Prototype Integration Code
+
+Hi [Colleague's Name],
+
+I hope you're doing well!
+
+I've submitted the prototype integration code we discussed, and I'd really appreciate your feedback on the code structure. Specifically, I'm interested in knowing if there's a better approach we could take for creating the integration.
+
+Would you be available to take a look at it by the end of the week? Your insights would be incredibly valuable.
+
+Thanks in advance for your time and expertise!
+
+Best regards,
+[Your Name]
