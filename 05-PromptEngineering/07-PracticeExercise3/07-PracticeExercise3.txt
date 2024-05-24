@@ -1,0 +1,52 @@
+The task:
+Write an email to a colleague that you need feedback on your submitted prototype until end of the week.
+
+My attempt:
+You are a software developer.
+
+Please write an email to a colleague that you need feedback on your submitted prototype for the end of the week.
+
+The prototype is some code you wrote for a software integration. The email should be friendly. The email should be short and concise. The colleague is tech savvy.
+
+The response:
+Subject: Feedback Needed on Prototype by End of Week
+
+Hi [Colleague's Name],
+
+I hope you're doing well!
+
+I wanted to reach out regarding the prototype I submitted for the software integration project. I value your expertise and would greatly appreciate your feedback on it by the end of the week.
+
+If you could take some time to review the code and share your thoughts, it would be incredibly helpful for refining our approach.
+
+Looking forward to hearing from you!
+
+Best regards,
+[Your Name]
+
+
+------------
+
+The instructor's attempt:
+You are an email writing assistant.
+
+Write an email to a colleague that you need feedback on your submitted prototype for the end of the week.
+
+The email should be friendly yet determined. Make it clear that the feedback is definitely needed until the end of the week.
+Write a short, concise email. The colleague's name is Michael.
+
+The response:
+Subject: Request for Feedback on Prototype by End of Week
+
+Hi Michael,
+
+I hope you're doing well.
+
+I just wanted to touch base regarding the prototype I submitted earlier this week. I'm really excited about the progress we're making, and I would greatly appreciate your feedback on it by the end of the week.
+
+Your input is invaluable to me, and it will help us refine the prototype further. I understand everyone's busy schedules, but timely feedback would be incredibly helpful for our project timeline.
+
+Looking forward to hearing your thoughts!
+
+Best regards,
+[Your Name]
