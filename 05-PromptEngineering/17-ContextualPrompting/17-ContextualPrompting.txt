@@ -1,0 +1,52 @@
+Contextual Prompting means that as you provide extra information for your prompt.
+As you set the context of your prompt you add specific extra information on the 
+cultural, historical or situational factors that should be taken into account by
+ChatGPT as it generates the response.
+
+For example you could have the prompt:
+Summarize the evolution of the combustion engine over the years since it's inception.
+Also evaluate it's impact on society and the environment.
+
+Consider the current shift towards renewable energy and electric vehicles in your
+response.
+
+The response:
+The combustion engine has undergone significant evolution since its inception in the late 19th century, profoundly influencing society and the environment.
+
+### Evolution of the Combustion Engine
+
+1. **Early Developments (Late 19th Century)**
+   - **First Practical Engines:** Nikolaus Otto developed the first successful four-stroke internal combustion engine in 1876, leading to the creation of the Otto cycle engine.
+   - **Diesel Engine:** In 1892, Rudolf Diesel patented the diesel engine, which offered higher efficiency and power compared to its gasoline counterpart.
+
+2. **20th Century Advancements**
+   - **Mass Production:** Henry Ford's introduction of assembly line production in 1913 made automobiles affordable and widespread.
+   - **Technological Improvements:** Advancements included the development of turbocharging, fuel injection systems, and electronic control units (ECUs) for better performance and efficiency.
+   - **Emissions Control:** The implementation of catalytic converters and stricter emissions regulations in the 1970s and 1980s aimed to reduce pollution.
+
+3. **Late 20th to Early 21st Century**
+   - **Hybrid Engines:** The Toyota Prius, introduced in 1997, popularized hybrid technology, combining internal combustion engines with electric motors for improved fuel efficiency.
+   - **Alternative Fuels:** Research into biofuels, hydrogen, and natural gas gained traction as alternatives to gasoline and diesel.
+
+### Impact on Society
+
+- **Economic Growth:** The combustion engine revolutionized transportation, enabling the rapid movement of goods and people, and contributing significantly to economic growth.
+- **Urbanization:** The widespread use of automobiles facilitated suburban expansion and reshaped urban planning and infrastructure.
+- **Industrialization:** Combustion engines powered industrial machinery, contributing to the advancement of various industries and increasing productivity.
+
+### Environmental Impact
+
+- **Air Pollution:** Combustion engines are major sources of air pollutants such as nitrogen oxides (NOx), carbon monoxide (CO), and particulate matter (PM), contributing to smog and respiratory diseases.
+- **Greenhouse Gas Emissions:** The burning of fossil fuels in combustion engines releases significant amounts of carbon dioxide (CO2), a leading cause of global warming.
+- **Resource Depletion:** The demand for oil has led to extensive extraction and depletion of fossil fuel reserves, impacting ecosystems and contributing to geopolitical tensions.
+
+### Current Shift Towards Renewable Energy and Electric Vehicles (EVs)
+
+- **Technological Advancements:** Improvements in battery technology, such as lithium-ion batteries, have made EVs more viable by increasing their range and reducing costs.
+- **Policy Support:** Governments worldwide are implementing policies and incentives to promote EV adoption and renewable energy, such as tax rebates, subsidies, and stricter emissions regulations.
+- **Environmental Benefits:** EVs produce zero tailpipe emissions, reducing air pollution and greenhouse gas emissions when powered by renewable energy sources like wind, solar, and hydropower.
+- **Market Trends:** Major automotive manufacturers are investing heavily in EVs and phasing out internal combustion engines, signaling a significant industry shift.
+
+### Conclusion
+
+The combustion engine has been a cornerstone of modern society, driving economic growth and transforming transportation. However, its environmental impact has led to significant challenges. The current shift towards renewable energy and electric vehicles represents a pivotal change aimed at addressing these challenges, reducing dependency on fossil fuels, and mitigating climate change. As this transition accelerates, it promises to reshape industries, economies, and environmental strategies worldwide.
