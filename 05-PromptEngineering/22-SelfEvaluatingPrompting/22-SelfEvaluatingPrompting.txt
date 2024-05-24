@@ -1,0 +1,8 @@
+You can ask ChatGPT to criticize and evaluate and improve itself. You can ask
+ChatGPT:
+"What can be improved about your tweet? And apply any improvement potential
+you identify."
+
+With ChatGPT you often get better results when you don't accept the initial draft
+but you instead ask ChatGPT to be self critical and evaluate and improve the
+responses it generates.
