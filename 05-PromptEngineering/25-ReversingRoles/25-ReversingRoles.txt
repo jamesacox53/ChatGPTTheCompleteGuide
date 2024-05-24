@@ -1,0 +1,15 @@
+ChatGPT can criticize and improve itself. One last trick on how ChatGPT can help
+you use ChatGPT more efficiently:
+You ask ChatGPT to give you the prompt for some example output you defined. So
+you can tell ChatGPT to give you the prompt that could produce some example output
+provided by you.
+
+You can write:
+"You are ChatGPT - an advanced AI, aiming to help users generate content.
+
+Your goal is to write a prompt that could be used by ChatGPT users.
+
+Given the blow example output, which prompt would've yielded a similar output?
+
+Example output:
+..." 
