@@ -1,0 +1,13 @@
+The Idea with Laddering Prompting is to break up a complex problem that would
+probably require a very long and detailed prompt. This could cause ChatGPT
+to lose context and to lose information and produce a suboptimal response.
+To take such a problem and instead split it up into multiple smaller problems
+and prompts which you then send step by step to ChatGPT so that you get solutions
+for smaller prompts which you can then combine manually.
+
+Complex Problem -> Prompt 1: Solve a part of the problem
+		-> Prompt 2: Solve another part of the problem
+		-> Prompt 3: Solve another part of the problem
+
+Keep all of the questions in the same chat. Don't open separate chats for
+each prompt.
