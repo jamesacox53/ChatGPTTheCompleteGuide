@@ -1,0 +1,66 @@
+Exercise: Create a Python code snippet that searches and deletes all .png and .jpg files in a given folder.
+
+My attempt:
+Please create a Python code snippet that searches and deletes all .png and .jpg files in a given folder.
+
+The response I got:
+Sure! Below is a Python code snippet that searches for and deletes all `.png` and `.jpg` files in a given folder. You can specify the folder path, and the script will handle the rest.
+
+```python
+import os
+
+def delete_image_files(folder_path):
+    # Ensure the provided path is a directory
+    if not os.path.isdir(folder_path):
+        print(f"The provided path '{folder_path}' is not a valid directory.")
+        return
+
+    # List of file extensions to delete
+    extensions = ['.png', '.jpg', '.jpeg']
+
+    # Iterate over files in the directory
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+
+        # Check if the file has one of the desired extensions and is a file
+        if os.path.isfile(file_path) and any(filename.lower().endswith(ext) for ext in extensions):
+            try:
+                os.remove(file_path)
+                print(f"Deleted: {file_path}")
+            except Exception as e:
+                print(f"Error deleting file {file_path}: {e}")
+
+# Example usage:
+folder_path = '/path/to/your/folder'  # Replace with your folder path
+delete_image_files(folder_path)
+```
+
+Replace `'/path/to/your/folder'` with the actual path to the folder where you want to delete the image files. This script checks if the given path is a directory, iterates through the files in that directory, and deletes those that have `.png`, `.jpg`, or `.jpeg` extensions. It also handles any potential errors that might occur during file deletion.
+
+
+------------
+
+The instructor's prompt:
+You are an experienced Python developer.
+
+Create a Python code snippet that searches and deletes all .png and .jpg files in a given folder.
+
+The user who executes the script should be able to define the folder dynamically. The script should accept the folder path as an input.
+Just output the code snippet without any extra explanations.
+
+The response I got:
+import os
+
+def delete_png_jpg_files(folder_path):
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith(('.png', '.jpg')):
+                os.remove(os.path.join(root, file))
+
+folder_path = input("Enter the folder path: ")
+delete_png_jpg_files(folder_path)
+
+
+--------
+
+Personally I prefer the answer that I got so you have to play around with it.
