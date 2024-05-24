@@ -1,0 +1,64 @@
+The Exercise:
+Use Python and JavaScript to encode input text (and output that text) by shifting
+every character one character to the left.
+
+My Prompt:
+You are an experienced Python and JavaScript developer.
+
+Please give me the code for a program that takes some text as user input. The
+program should then encode that text by shifting every character one character
+to the left. For example: "B" becomes "A", "E" becomes "D" and so on.
+Finally the program should output that encoded text.
+
+Write the program for both Python and JavaScript.
+
+The response:
+Sure, here are the programs for both Python and JavaScript to encode text by shifting every character one character to the left.
+
+### Python Code
+```python
+def encode_text(text):
+    encoded_chars = []
+    for char in text:
+        encoded_chars.append(chr(ord(char) - 1))
+    return ''.join(encoded_chars)
+
+if __name__ == "__main__":
+    user_input = input("Enter the text to encode: ")
+    encoded_text = encode_text(user_input)
+    print("Encoded text:", encoded_text)
+```
+
+### JavaScript Code
+```javascript
+function encodeText(text) {
+    let encodedText = '';
+    for (let i = 0; i < text.length; i++) {
+        encodedText += String.fromCharCode(text.charCodeAt(i) - 1);
+    }
+    return encodedText;
+}
+
+let userInput = prompt("Enter the text to encode:");
+let encodedText = encodeText(userInput);
+console.log("Encoded text:", encodedText);
+alert("Encoded text: " + encodedText);
+```
+
+### Explanation
+
+#### Python
+1. The `encode_text` function takes a string `text` as input.
+2. It iterates over each character in the string.
+3. For each character, it converts it to its ASCII value using `ord`, subtracts 1, and converts it back to a character using `chr`.
+4. The encoded characters are collected in a list and then joined to form the final encoded string.
+5. The script takes user input, encodes it, and prints the encoded text.
+
+#### JavaScript
+1. The `encodeText` function takes a string `text` as input.
+2. It iterates over each character in the string.
+3. For each character, it converts it to its ASCII value using `charCodeAt`, subtracts 1, and converts it back to a character using `fromCharCode`.
+4. The encoded characters are concatenated to form the final encoded string.
+5. The script takes user input using `prompt`, encodes it, logs the encoded text to the console, and shows it in an alert box.
+
+These programs will take any text input from the user, shift each character one position to the left in the ASCII table, and output the encoded text.
