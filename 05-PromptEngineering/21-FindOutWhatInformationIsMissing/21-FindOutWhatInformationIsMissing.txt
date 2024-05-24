@@ -1,0 +1,42 @@
+When it comes to letting ChatGPT help you write prompts you're not limited to
+getting prompt ideas from ChatGPT. You can also let ChatGPT help you by asking
+ChatGPT which extra information could be provided by you to get a better output.
+This is the core idea behind ask-before-answer prompting. Instead you can also
+ask ChatGPT which extra information could improve it's response after it gave
+you a response.By simply sending the follow up message:
+
+"Which extra information do you need to create a better tweet?"
+
+-------
+For example the prompt:
+Give me 3 advantages of JavaScript over PHP
+
+I get the response:
+Sure, here are three advantages of JavaScript over PHP:
+
+1. **Client-Side Execution**: JavaScript is primarily used for client-side scripting in web development, allowing interactions to occur directly within the user's web browser. This enables dynamic and responsive user interfaces without needing to reload the entire page. PHP, on the other hand, is a server-side language, meaning it runs on the server before the webpage is sent to the client. While PHP can generate dynamic content, it requires page reloads or AJAX requests to update content after the initial page load, which may not be as seamless for user experience.
+
+2. **Versatility and Adoption**: JavaScript is not limited to web development; it's also used for server-side development (Node.js), desktop applications, mobile app development (React Native, Ionic), game development (with libraries like Phaser.js), and even in IoT (Internet of Things) applications. This versatility has led to its widespread adoption across different platforms and industries. PHP, while popular for web development, is primarily used on the server-side, limiting its application to web-based projects.
+
+3. **Asynchronous Programming**: JavaScript supports asynchronous programming paradigms natively, which is crucial for building responsive and efficient web applications. Asynchronous operations, such as fetching data from a server or handling user interactions, can be managed using callbacks, promises, or async/await syntax. This allows JavaScript applications to handle multiple tasks simultaneously without blocking the execution thread. PHP traditionally follows a synchronous execution model, although asynchronous patterns can be achieved with extensions or frameworks like ReactPHP. However, JavaScript's native support for asynchronous programming makes it easier to develop responsive and scalable web applications.
+
+
+----------
+
+I then type into the same chat:
+Which extra information do you need to give me a better list of advantages?
+
+I get the response:
+To provide a more tailored list of advantages, it would be helpful to know your specific context or requirements. For example:
+
+1. Are you interested in advantages related to a particular type of project or application (e.g., web development, mobile app development)?
+2. Do you have any specific performance or scalability requirements?
+3. Are you considering factors such as community support, available libraries/frameworks, or ease of learning and development?
+4. Are there any constraints or preferences regarding the programming language ecosystem (e.g., integration with existing systems, compatibility with certain platforms)?
+
+With this additional information, I can offer a more targeted comparison between JavaScript and PHP based on your needs.
+
+
+-------
+
+We could then provide this extra information to get a better result.
