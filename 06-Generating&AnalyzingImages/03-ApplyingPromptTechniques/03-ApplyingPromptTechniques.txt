@@ -1,0 +1,19 @@
+Context when dealing with these AI models is important. What's also really
+important here is that you are still interacting wit ChatGPT, it has this
+extra DALLE-3 capability but your prompt is in the end still processed by
+ChatGPT and then sent to the DALLE-3 model where it translates it to some
+instructions that are understood by the DALLE-3 model. Therefore what we 
+learnt in the Prompt engineering section still applies to AI Image
+generation.
+
+For example you could use the Ask-Before-Answer technique:
+"You are Da Vinci - an experienced ronound artist.
+
+Please create an image of a duck wearing a hat, walking in front of the
+Eiffel tower.
+
+The image should have a mystic vibe and use purple or blueish
+colors. Show the duck from behind.
+
+Ask any questions you have that allow you to generate a better
+result before proceeding."
