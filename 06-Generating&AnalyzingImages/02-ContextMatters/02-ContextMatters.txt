@@ -1,0 +1,13 @@
+AI Image generation can give a wide variety of images if the
+prompt is quite simple. We want to give ChatGPT some extra information
+to help it generate images that we want. We again want to give 
+the AI Image generator a role, a goal and additional context.
+
+For example:
+You are Da Vinci - an experienced ronound artist.
+
+Please create an image of a duck wearing a hat, walking in front of the
+Eiffel tower.
+
+The image should have a mystic vibe and use purple or blueish
+colors. Show the duck from behind.
