@@ -1,0 +1,21 @@
+If you don't get exactly what you want you can ask ChatGPT to reflect.
+You can ask: "Do you think that theses images are in line with my
+original prompt and requirements?". You can get ChatGPT to try and edit
+the images.
+
+You can also give ChatGPT hints like:
+"Do you think
+that theses images are in line with my original prompt and requirements?
+Especially the placement of the owl?"
+
+You can refer to specific images when trying to refine them. For example:
+"I like the bottom left image (the third one) but there seems to be a human
+in the read coat. It should be a duck instead.
+
+Please give me variations of that image that do use a duck in a red coat."
+
+It can be problematic if you include too many details in your prompt. If
+there are too many details about too many subjects. The instructors
+recommendation now is to typically focus on 1 or 2 main subjects or topics
+of the image and share a lot of information about those to ChatGPT. 
+But to not include too many different subjects or topics into your prompt.
