@@ -1,0 +1,6 @@
+You can not just control what's on the image but also how the image should
+look like. As before you could tell ChatGPT to create a watercolor painting
+or an oil painting. You can give instructions about the angle and aspect ratio,
+for example:
+"Please create a wide-angle 16:10 photorealistic image of a house in a rugged
+landscape. Use brown and dark green colors."
