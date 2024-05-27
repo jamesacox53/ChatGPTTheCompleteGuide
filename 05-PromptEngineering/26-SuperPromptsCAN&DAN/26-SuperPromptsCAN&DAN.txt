@@ -1,0 +1,13 @@
+CAN (Code Anything Now) and DAN (Do Anything Now) are super prompts.
+CAN is a Prompt that optimizes ChatGPT for coding. The instructor
+feels that it's not as good as some people make it. He feels it's
+over constructed and that it adds too much information and context.
+
+DAN Jailbreaks ChatGPT with the goal of getting ChatGPT to provide
+responses to questions that it would normally not answer. In the
+instructors view he feels that they aren't as powerful as people
+make you seem they are.
+
+Experiment with such prompts but don't focus on them. Keep in mind
+that ChatGPT doesn't truly understand you. Focus on general prompting
+techniques instead.
