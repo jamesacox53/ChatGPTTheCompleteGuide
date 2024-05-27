@@ -1,0 +1,17 @@
+You could ask ChatGPT to generate some text and then after ask it to
+create an image about the text.
+For example:
+"You are an experienced travel blogger.
+
+Please write an article about a beautiful hike you recently completed on
+Madeira. Describe the weather, scenery and why it's definitely worth
+a visit.
+
+The blog entry should be around 300 words long and target a young,
+enthusiastic audience."
+
+then when it's done creating the text you ask it:
+"Please create a fitting main image that can be used above the post."
+
+You can also follow up with:
+"Please create illustrations instead of photos."
