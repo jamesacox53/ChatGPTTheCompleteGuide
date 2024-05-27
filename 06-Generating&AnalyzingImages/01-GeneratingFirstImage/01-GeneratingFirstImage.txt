@@ -1,0 +1,3 @@
+I went to Copilot and typed in:
+"Please create a photo of a duck wearing a hat."
+It created the DuckWearingHat.jpg image.
