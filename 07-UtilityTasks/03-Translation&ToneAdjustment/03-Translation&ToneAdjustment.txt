@@ -1,0 +1,11 @@
+ChatGPT can translate text and adjust the tone of text. You can just say:
+"Please translate this text to English:" or "Please translate this text to French:"
+
+You can also get ChatGPT to adjust the tone of text. You can write:
+"Please make this email more friendly. It should still be clear that
+I'm not happy with my colleague's work and that I need an updated
+version very soon. Still the email should be respectful and encourage
+my colleague to deliver the update as soon as possible."
+
+Then paste the email below. 
+
