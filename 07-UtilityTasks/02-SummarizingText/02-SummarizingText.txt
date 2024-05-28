@@ -1,0 +1,4 @@
+With ChatGPT we can summarize text. We can write:
+"Please summarize this text:"
+
+and then paste the text we want summarized.
