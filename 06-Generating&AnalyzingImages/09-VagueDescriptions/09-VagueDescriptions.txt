@@ -1,0 +1,10 @@
+One thing that's great about AI Image Generation is that you don't always
+have to describe what exactly should be in the image but instead you
+could also describe what the image should represent.
+
+For example:
+"Please create a flat vector illustration icon that represents the
+concept of dragging and dropping a file on a computer.
+
+The icon should be colorful but still usable in a professional context.
+The icon also must be in front of a white background."
