@@ -1,0 +1,13 @@
+With ChatGPT researching information becomes easier and more efficient
+than ever before.
+
+You can write:
+"What are the top 5 books everybody should read?"
+
+ChatGPT will then give you a starting point for books you may want to read.
+
+You can then ask ChatGPT for a summary of the third book it recommended.
+We started very generic but we now come closer to a specific book we are
+interested in. You can say:
+"What will I learn in book #3? Please provide a short summary, the page count and the year
+when this book was initially published."
