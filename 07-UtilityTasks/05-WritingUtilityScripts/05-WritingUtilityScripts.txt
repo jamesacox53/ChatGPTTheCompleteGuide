@@ -1,0 +1,6 @@
+You can write Utility tools or Utility Scripts with ChatGPT.
+"You are a programmer and you have to write a Python script for me.
+I'm working on a Mac computer and I never programmed before. I have
+a folder on my desktop named "files" and the folder contains different
+files. The script should rename all files in this folder to contain
+lowercase letters only. Tell me all the steps I need to run the script."
