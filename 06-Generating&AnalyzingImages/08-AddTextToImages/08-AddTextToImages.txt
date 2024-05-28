@@ -1,0 +1,7 @@
+You can ask for images that contain certain text. But if the text is
+too complicated then the AI Image Generator may mess it up. But if you
+keep it simple then it should be fine. For example:
+
+Please create a photo of a sign that says "I like cookies - a lot"
+
+I tried this and it worked.
