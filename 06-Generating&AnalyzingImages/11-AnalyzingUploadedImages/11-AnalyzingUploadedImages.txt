@@ -1,0 +1,5 @@
+You can upload images like the scan of a receipt. Then ChatGPT can use
+the image when evaluating the prompt.
+
+You can write:
+"Summarize the content of the image."
