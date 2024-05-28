@@ -1,0 +1,7 @@
+You can use ChatGPT to proof read text. At the beginning of the prompt
+you can add:
+"Please check this text for grammar and spelling mistakes and provide the
+corrected version."
+
+You can also ask ChatGPT to improve text that you have written.
+"Please improve the text:"
