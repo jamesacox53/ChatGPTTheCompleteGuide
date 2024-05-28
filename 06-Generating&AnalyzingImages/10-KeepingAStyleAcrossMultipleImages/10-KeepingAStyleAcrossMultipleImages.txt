@@ -1,0 +1,18 @@
+You can easily create more images/illustrations using the same style of
+another illustration that was created by Dalle-3.
+
+You can upload an icon and say:
+"Please create another icon that uses the same style as the uploaded image.
+
+The icon should now depict a totally different concept. It should be an
+icon that visualizes the concept of adding an item to a shopping cart."
+
+
+------------
+
+If you have already generated an image in the chat you can do:
+"Please create another icon that uses the same style as the first image in
+your latest response.
+
+The icon should now depict a totally different concept. It should be an
+icon that visualizes the concept of adding an item to a shopping cart."
