@@ -1,0 +1,4 @@
+You can use the code interpreter for Optical Character Recognition (OCR).
+OCR is where you recognize text in an image. You can upload an image and
+then write:
+"Please use OCR to analyze the image and extract the text."
