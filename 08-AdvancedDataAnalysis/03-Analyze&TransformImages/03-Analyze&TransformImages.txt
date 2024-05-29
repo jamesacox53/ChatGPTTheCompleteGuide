@@ -1,0 +1,36 @@
+We can use the code interpreter to anaylze and transform images. To 
+generate new images and also to extract data from images. The data here
+can be metadata but it can also be text in an image.
+
+I uploaded the image: people.png
+To extract the metadata of the image use the prompt:
+"Please provide the metadata of the uploaded image."
+
+The response I got is:
+The image you uploaded does not contain any metadata. This means there is no additional information such as camera details, date taken, or location embedded within the image file itself.
+
+ChatGPT generated the code to extract the metadata:
+from PIL import Image
+
+# Load the image to extract metadata
+image_path = "/mnt/data/people.png"
+image = Image.open(image_path)
+
+# Extract metadata
+image_info = image.info
+image_info
+
+
+--------------
+
+You could ask: "What is the image aspect ratio?"
+If you want to change the aspect ration then you could ask ChatGPT:
+"Please change the aspect ration to 4:3".
+Then ChatGPT should create a new image for you with the aspect ratio
+4:3.
+
+If the image is distorted you can write:
+"Please don't distort the image, crop it instead."
+
+If the image is cropped all the way to the left you can type:
+"The left and right should be cropped with equal lengths." 
