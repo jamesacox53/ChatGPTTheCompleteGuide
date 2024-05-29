@@ -1,0 +1,25 @@
+You can use ChatGPT to edit images. For example you can change the colour
+of images. You can ask ChatGPT to extract the color palette used in the
+image:
+"Please Extract the color palette used in this image"
+
+Then it might give you the top 10 colours used in the image by rgb value.
+You can then ask ChatGPT:
+"Please create an image with the colors. Each color should be displayed
+as a square".
+
+ChatGPT may return an image with 10 squares in a line, each square is one
+of the colours. Then you could type:
+"Please add the hexcode for each color below the square."
+
+Then "Text should be white". Then you get back the color pallete with
+hex codes beneath the colors.
+
+
+-------------
+
+You can also change the colours used in the image.
+You can put: "Make the image grayscale."
+
+You can also ask for the file in a different file format.
+"Please save the image as .jpg".
