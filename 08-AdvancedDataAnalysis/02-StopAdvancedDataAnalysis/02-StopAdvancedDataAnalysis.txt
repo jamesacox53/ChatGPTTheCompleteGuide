@@ -1,0 +1,15 @@
+Sometimes ChatGPT may try to generate some code when you don't want it
+to. For example maybe when you upload a file and say:
+"Please summarize the text in this file."
+
+ChatGPT may try to generate some code to do it. We might instead prefer
+ChatGPT to write and execute code for opening the text file. But we
+don't want ChatGPT to use the code interpreter to summarize the text.
+Instead that should be done by ChatGPT itself. We could enhance the
+prompt by adding some extra context:
+
+"Please summarize the text in this file.
+
+Write and execute Python code for opening the file.
+But produce the summary without writing or executing any code. Instead,
+summarize the text on your own."
