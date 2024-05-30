@@ -1,0 +1,31 @@
+You could start simple with:
+"Write me a CV to apply for a new job."
+
+But typically you have a clear vision for your CV and how you want
+to present yourself.
+
+We could instead write:
+"Please craft an outstanding CV for a highly skilled professional with
+10 years of experience in their field. The CV should showcase their
+expertise, accomplishments and skills in a clear, concise and visually
+appealing manner. The document should include the floolwing sections:
+Contact Information, Professional Summary, Work Experience, Education,
+Skills. Certifications and Honors & Awards."
+
+We can also try to create a Cover Letter with ChatGPT. Here is a basic
+prompt:
+"Please write me a cover letter."
+
+You can also write a less generic one with:
+"Please write a concise and compelling cover letter for a job application
+that highlights the candidate's exceptional professional qualifications,
+strong team player attitude and ability to exceed expectations. The
+cover letter should quickly establish the applicant's suitability for the
+position by showcasing relevant skills, achievements and experiences.
+Additionally, emphasize the cnadidate's commitment to teamwork, adaptability
+and their proven track record of going above and beyond in their
+previous roles. The cover letter should leave a lasting impression and
+persuade the hiring manager to consider the candidate as the perfect
+fit for the position. The candidate has 10 years of working experience
+in the tech industry, led teams with more than 10 people and finished
+more than 100 projects."
