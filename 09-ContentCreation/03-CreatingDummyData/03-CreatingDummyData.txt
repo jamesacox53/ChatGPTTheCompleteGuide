@@ -1,0 +1,31 @@
+You can use ChatGPT to generate sample/dummy data. Lets say we needed JSON
+sample data of recipies with their ingredients. You could write:
+"Please create a JSON array. It should contain 5 recipies, each with
+at least 6 ingredients."
+
+
+-----------
+
+We can also ask for data in CSV format:
+"Provide data for the 50 largest cities in the world in .csv format with
+the following headers: City, Country, Region, Population, Currency."
+
+
+-----------
+
+You could also ask for dummy data in table format:
+"I need output in table format for dummy data for an online store. The
+columns should be named ID, First Name, Second Name, Address, Email. The
+table should contain at least 20 customers."
+
+Chat GPT will print out a table and then you could write:
+"Please turn this into .csv format."
+
+
+---------
+
+Also markdown is a very common data type for text. You can write:
+"Create some text in markdown."
+
+Then to get the actual markdown code is you can write:
+"Please provide the underlying markdown code."
