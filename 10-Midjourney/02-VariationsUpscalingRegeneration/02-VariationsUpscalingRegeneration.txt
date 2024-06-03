@@ -1,0 +1,14 @@
+When you use a prompt to generate images Midjourney always generates 4
+images. The upper left image is 1, upper right is 2, lower left is 3 and
+lower right is 4. There are some buttons below the images that you can
+click: U1, U2, U3, U4, V1, V2, V3, V4 and Regenerate. The U buttons 
+upscales that image, the V buttons generates 4 variations of that image
+and the Regenerate button generates 4 new images based on the prompt.
+
+With variations Midjourney bases the new images off of the selected image
+but includes some changes. The general look is similar but we changed
+some details inside this image.
+
+Upscale lets you download the image and upscale the resolution as by default
+images have a resolution of 1024 x 1024 px. So Upscale lets you change the
+aspect ratio of the image.
