@@ -1,0 +1,9 @@
+To create images with Midjourney you need to message the Midjourney bot
+and then use the command /imagine with the text for the image you want to
+create.
+
+Prompts in Midjourney are all about keywords. So we don't add full phrases.
+For example we could have the prompt: "/imagine tropical island, beach,
+sunshine"
+
+With Midjourney you want to be concise.
