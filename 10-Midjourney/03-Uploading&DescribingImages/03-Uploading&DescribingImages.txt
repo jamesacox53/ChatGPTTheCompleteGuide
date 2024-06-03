@@ -1,0 +1,21 @@
+You can upload images to the Midjourney discord bot and have Midjourney
+adjust them to your needs. You drag and drop the image into the chat.
+
+You can search the community for a prompt that is inline with what you
+are looking for.
+
+If you upload a picture of yourself and want it in the style of a cartoon.
+You can find the cartoon image in the community that you want and then
+copy it's prompt.
+
+Then in discord you do /imagine and drag the photo from the discord chat
+into the prompt and then after add the prompt that you got from the 
+community. For example:
+"/imagine 'image link' cartoon style"
+
+
+-----------
+
+We have an option to describe the image the way midjourney sees it from a
+prompt perspective. The can be done with the /describe command. You always
+get 4 descriptions.
