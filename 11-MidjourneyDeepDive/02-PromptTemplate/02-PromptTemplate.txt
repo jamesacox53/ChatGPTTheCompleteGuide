@@ -1,0 +1,23 @@
+Midjourney doesn't understand grammar, sentence structure or words like
+humans. Word choice matters, remove workds where possible as fewer words
+means that each word has a more powerful influence. Midjourney doesn't
+understand commas so you can include them in your prompt to help break
+it up for you.
+
+There are 5 key areas to generate amazing output:
+
+Medium/Art Style, Subject, Setting, Background, Atmosphere
+
+The Medium/Art Style & Subject are the Main Content.
+The Setting, Background & Atmosphere are the Details.
+
+for example:
+Medium/Art Style: A photo
+Subject: of a pirate
+Setting: close-up
+Background: the ocean in the background
+Atmosphere: cinematic lighting
+
+So the overall example prompt is:
+/imagine A photo of a pirate, close-up, the ocean in the background,
+cinematic lighting
