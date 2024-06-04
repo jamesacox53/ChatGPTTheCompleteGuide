@@ -1,0 +1,25 @@
+You can use Midjourney to create images in a specific movie style.
+
+For example:
+/imagine a photo of two women talking to each other in the street,
+mid-range, kill bill style, city in the background
+
+/imagine two women talking to each other in the street,
+mid-range, kill bill style, city in the background
+
+You can not include parts of the prompt template if you don't want.
+It will let Midjourney be more creative.
+
+When getting images in the style of movies you can use a medium
+that we haven't used before: a film still
+
+/imagine a film still of two men discussing with each other
+
+/imagine a film still of a man walking, panorama, matrix style,
+the city in the backround, night
+
+/imagine a film still of captain jack sparrow standing on a pirate
+boat, panorama, pirates of the caribbean style
+
+/imagine a film still of leonardo dicaprio, close-up,
+pirates of the caribbean style
