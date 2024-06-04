@@ -1,0 +1,9 @@
+There are different versions of Midjourney. V5.1 is called an opinionated
+version. An opinionated version is a version that wants to make creating
+images as easy as possible. So it wants you to give it shorter prompts and
+it will be more creative. There are also unopiniated versions that requires
+more detailed descriptions. Unopiniated versions are V4 and V5 for example.
+v5.1 RAW is unopiniated.
+
+You can choose the Midjourney version by going to /settings and selecting
+the versions.
