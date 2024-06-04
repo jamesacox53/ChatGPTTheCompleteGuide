@@ -1,0 +1,15 @@
+Midjourney lets you easily turn images into a certain art style.
+
+example prompts:
+/imagine a painting of a young woman wearing sunglasses, portrait,
+pop-art style
+
+/imagine a painting of a young woman wearing sunglasses, portrait,
+cubism style
+
+you can also ask for images in the style of a certain artist.
+
+/imagine a painting of three young people walking,
+panorama, van-gogh style, park in the background
+
+/imagine a painting of a man, close-up, johannes vermeer style
