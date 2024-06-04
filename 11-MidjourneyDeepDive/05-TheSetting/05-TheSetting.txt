@@ -1,0 +1,45 @@
+The Setting can be divided into 2 areas: The Perspective and
+the Style.
+
+Some examples of Perspectives:
+close-up
+mid-range
+fullbody
+portrait
+selfie
+fish-eye
+panorama
+bird-eye view
+
+Example prompts:
+/imagine a photo of an old smiling pirate standing on his boat,
+panorama, the ocean in the background, cinematic lighting
+
+/imagine a photo of an old smiling pirate standing on his boat,
+selfie, the ocean in the background, cinematic lighting
+
+/imagine a photo of an old smiling pirate standing on his boat,
+bird-eye view, the ocean in the background, cinematic lighting
+
+
+Some examples of Styles:
+simpsons style
+disney style
+pixar style
+game of thrones style
+depth of field style
+gta5 style
+paw patrol style
+canon style
+35mm style
+cyberpunk style
+
+Example prompts:
+/imagine a photo of an old smiling pirate standing on his boat,
+panorama, simpsons style, the ocean in the background
+
+/imagine a comic of an old smiling pirate standing on his boat,
+panorama, simpsons style, the ocean in the background
+
+/imagine a 3D animation comic of an old smiling pirate standing on his boat,
+panorama, pixar style, the ocean in the background

@@ -13,6 +13,11 @@ Manga of
 8 bit pixel art of
 
 Some examples:
-/imagine An oil painting of a pirate, the ocean in the background
-/imagine A flat illustration of a pirate, the ocean in the background
-/imagine a cartoon of a pirate, the ocean in the background
+/imagine An oil painting of a pirate, the ocean in the background,
+cinematic lighting
+
+/imagine A flat illustration of a pirate, the ocean in the background,
+cinematic lighting
+
+/imagine a cartoon of a pirate, the ocean in the background,
+cinematic lighting
