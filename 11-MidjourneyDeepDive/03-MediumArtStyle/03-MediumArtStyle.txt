@@ -1,0 +1,18 @@
+For the Medium/ArtStyle there are lots of different options:
+Photo of
+Oil painting of
+Watercolored painting of
+Illustration of
+Flat illustration of
+Acrylic painting of
+Sketch of
+3D animation of
+Cartoon of
+Film noir of
+Manga of
+8 bit pixel art of
+
+Some examples:
+/imagine An oil painting of a pirate, the ocean in the background
+/imagine A flat illustration of a pirate, the ocean in the background
+/imagine a cartoon of a pirate, the ocean in the background
