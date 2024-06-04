@@ -1,0 +1,45 @@
+The background just defines the remaining part of our images besides
+the core content that should be displayed. At the moment our
+background has just been the ocean but we could make it more
+detailed: "the stormy ocean with high waves in the background"
+
+example prompts:
+/imagine a photo of an old smiling pirate standing on his boat,
+selfie, the stormy ocean with high waves in the background,
+cinematic lighting
+
+The atmosphere is a big word and contains many different things
+to describe. These things include the time of day: is it
+sunrise, is it twilight, is it day or night in general. You
+might want to have different lighting like natural or cinematic.
+Or you can also define the colours. You can add multiple atmosphere
+keywords to a prompt.
+
+For example:
+sunrise
+twilight
+natural lighting
+cinematic lighting
+neon lighting
+studio lighting
+global illumination
+golden colors
+vibrant colors
+black and white
+spring
+snowfall
+sunshine
+energetic
+
+example prompts:
+/imagine a photo of an old smiling pirate standing on his boat,
+selfie, the stormy ocean with high waves in the background,
+black and white
+
+/imagine a photo of an old smiling pirate standing on his boat,
+selfie, the stormy ocean with high waves in the background,
+neon lighting
+
+/imagine a photo of an old smiling pirate standing on his boat,
+selfie, the stormy ocean with high waves in the background,
+cinematic lighting, snowfall
