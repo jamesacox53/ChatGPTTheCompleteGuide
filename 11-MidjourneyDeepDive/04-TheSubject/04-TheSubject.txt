@@ -1,0 +1,11 @@
+The subject should define what is the core content of this image.
+What should this image be all about.
+
+So far we have only done a pirate but we could be more specific.
+For example: an old smiling pirate standing on his boat.
+So now the prompt is:
+/imagine a photo of an old smiling pirate standing on his boat,
+close-up, the ocean in the background
+
+You can keep the subject less detailed to let Midjourney be more
+creative.
