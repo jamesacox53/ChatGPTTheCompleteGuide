@@ -1,0 +1,24 @@
+You can create custom parameters that are basically just shortcuts
+for a set of parameters.
+
+To set custom parameters you use the /prefer command.
+To create a custom parameter called raw-image where you want
+to use the parameters: --style raw, --ar 16:9 
+you would do:
+/prefer option set raw-image --style raw --ar 16:9
+
+Then to use the custom parameter:
+/imagine photo of four people playing soccer --raw-image
+
+The stored parameters are then switched out with the custom parameter
+by Midjourney.
+
+You don't have to just store parameters in your custom parameters,
+you can also store text prompts. For example:
+/prefer option set simpsons-selfie selfie, simpsons style
+
+then you can use it:
+/imagine comic of a family sitting on the couch, --simpsons-selfie
+
+Midjourney changes it to:
+/imagine comic of a family sitting on the couch, selfie, simpsons style
