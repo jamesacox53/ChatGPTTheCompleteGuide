@@ -1,0 +1,11 @@
+We can use Midjourney to create icons.
+
+/imagine trophy icon
+
+You can tailor the prompt to get the icon style that you are looking
+for.
+
+/imagine trophy icon, flat icon style, no background, orange, purple
+
+You can use the flat icon style, the line icon style, a dual tone
+icon style, a coloured outline style, a 3D icon style.
