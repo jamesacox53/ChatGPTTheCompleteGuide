@@ -1,0 +1,19 @@
+Remix mode is all about changing prompts, parameters and so on between
+different variations of the images that you create. To make sure remix
+mode works as intended you have to activate High Variation Mode.
+
+lets say we have:
+/imagine pixar animation of a garden, house in the background, cute,
+happy --ar16:10
+
+remix mode doesn't affect the image generation at this stage.
+When you click to create a variation of an image a 'Remix Prompt'
+box appears that lets you choose a new prompt for the image generation.
+The idea with remix mode is to just change some parts of the prompt or
+add new details to the prompt. We could use the new prompt:
+
+pixar animation of a dog lying in the garden, house in the background
+--ar16:10
+
+This would use the first image as an inspiration and generate a new image
+with the prompt.
