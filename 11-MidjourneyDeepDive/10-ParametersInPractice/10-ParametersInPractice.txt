@@ -1,0 +1,18 @@
+We can have the prompt:
+/imagine photo of the ocean with light waves, wide shot, cotton
+candy clouds in the background, sunrise, realistic lighting
+--ar 16:9
+
+add the parameters at the end of the prompt.
+
+--no is a negative prompt so we can exclude certain objects,
+humans, animals or simply certain information from the image.
+
+Lets say that we want to exclude blue colours from the image:
+/imagine photo of the ocean with light waves, wide shot, cotton
+candy clouds in the background, sunrise, realistic lighting
+--ar 16:9 --no blue
+
+Let's say we want to exclude cars from this prompt:
+/imagine photo of two women talking to each other in the street,
+mid-range, kill bill style, city in the background --no cars
