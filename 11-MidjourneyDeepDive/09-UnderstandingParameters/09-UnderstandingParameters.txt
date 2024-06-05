@@ -1,0 +1,16 @@
+We learned how to change the content of the created image, now we will
+learn how we can change the way the image is created in general by
+adding parameters. After the text prompt we can add additional
+information like:
+--ar 16:9 --style raw
+
+You can add multiple parameters to a prompt.
+
+--ar is the aspect ration
+--style raw means use the raw version of Midjourney. Instead of 
+changing your setting to make the raw version apply to all your
+prompts you can make it apply to a single prompt by adding the 
+parameter --style raw.
+
+You can find all of the parameters available in the docs.
+
