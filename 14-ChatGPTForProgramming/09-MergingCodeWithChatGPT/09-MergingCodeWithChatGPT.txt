@@ -1,0 +1,17 @@
+ChatGPT can be great for generating the individual building blocks. You can
+also use ChatGPT to then merge the generated code with your existing code.
+For this you could send a prompt to ChatGPT where you paste in your existing
+code/code base where your existing code should be merged. Then tell ChatGPT
+which code should be merged into this block.
+
+So you could have the prompt:
+"I have this existing code (below the ---):
+
+---
+...
+---
+
+Please add your code (Session model, verifySession function and the
+checkAuthStatus middleware) to this codebase."
+
+You need to test the result.
