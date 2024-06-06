@@ -1,0 +1,14 @@
+I used this prompt:
+"You are an experienced web developer.
+
+Please create a website that has the following pages:
+A Starting Page with the following information:
+- My name: James Cox
+- an image of me: james.png
+- a list of my hobbies: Walking, Programming, Video Games, Going to the Gym
+
+A CV page with the following experience:
+- ServiceNow Developer for a company called Unifii from 2022 - now
+- ServiceNow Administrator for a company called Six Degrees from 2020 - 2022
+
+The website should have a modern, clean, dark-mode styling."
