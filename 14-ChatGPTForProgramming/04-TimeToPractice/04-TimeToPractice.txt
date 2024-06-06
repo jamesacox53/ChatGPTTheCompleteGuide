@@ -1,0 +1,12 @@
+Let ChatGPT build a basic website! A website that consists of 2 main areas:
+A Starting Page and a CV Page.
+
+The Starting Page should show:
+- Your Name
+- Image
+- List of Hobbies
+
+The CV Page should show:
+- list with career history
+
+The website should have a modern, clean, dark-mode styling.
