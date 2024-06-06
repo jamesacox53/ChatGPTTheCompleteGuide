@@ -1,0 +1,8 @@
+ChatGPT can be amazing and a big help for programming but it also has 
+limitations. The more complex the code gets, the more complex the program
+gets the higher the chance that ChatGPT introduces errors/bugs. It might
+also write code that technically works but doesn't perform well. So ChatGPT
+in it's current form has limitations.
+
+ChatGPT can be amazing for basic scripts like utility scripts and
+utility programs.
