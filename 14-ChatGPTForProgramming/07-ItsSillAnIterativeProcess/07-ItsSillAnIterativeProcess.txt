@@ -1,0 +1,4 @@
+With building blocks there may be parts where ChatGPT hasn't given the code
+so you need to ask it to give the code for that class or that function.
+
+It's still an iterative process.
