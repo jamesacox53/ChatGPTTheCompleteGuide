@@ -1,0 +1,5 @@
+When ChatGPT has large responses sometimes it will stop and you need to type
+continue. However when this happens ChatGPT can close the code block and not
+open another one so you lose the formatting after the 'continue'. To workaround
+this it sometimes works if instead of 'continue' you type:
+'Output "Continuing" as text and then continue'
