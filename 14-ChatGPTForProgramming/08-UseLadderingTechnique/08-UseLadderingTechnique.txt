@@ -1,0 +1,5 @@
+Using ChatGPT as a developer is all about splitting up complex problems
+into simpler problems. In the prompt engineering section we already learned
+about this technique. It was called laddering prompting. As a developer
+split your problems into smaller building blocks and then combine these
+building blocks manually to get the final solution.
