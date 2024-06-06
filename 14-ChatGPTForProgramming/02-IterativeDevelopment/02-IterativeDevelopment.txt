@@ -1,0 +1,7 @@
+Sometimes ChatGPT can generate some code that doesn't work. What can you do
+if ChatGPT gives you code that doesn't work? You can take advantage of the
+fact that ChatGPT is a chat and you report errors or missing features to
+ChatGPT so that it helps you fix them. Then you basically have this iterative
+process where you can again try executing the program and if it works you're
+happy and if it doesn't work you again report those errors to ChatGPT and 
+you keep going through that process until you have the working program.
