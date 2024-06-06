@@ -1,0 +1,89 @@
+Here is an example of asking ChatGPT for one specific building block:
+"You are an experienced NodeJS web developer.
+
+For an existing Node + Express app, give me the code for a custom middleware
+function that checks the authentication status of users.
+This middleware function should check whether incoming requests have a session
+cookie set and if that session is valid.
+If the session is valid, the request should be allowed to pass, otherwise a
+fitting error response should be sent back.
+
+Don't give me the overall application code, instead just generate the code
+for this specific middleware function."
+
+
+------------
+
+ChatGPT's response:
+To create a custom middleware function in a Node + Express app that checks the authentication status of users, you'll typically need to interact with session data. Here's how you can do this:
+
+1. Ensure you have session management set up, using a package like `express-session`.
+2. Create the middleware function to check the session validity.
+
+First, install the necessary package if you haven't already:
+```bash
+npm install express-session
+```
+
+Now, set up your session management in your Express app:
+```javascript
+const express = require('express');
+const session = require('express-session');
+
+const app = express();
+
+// Set up session middleware
+app.use(session({
+  secret: 'your-secret-key', // Replace with your secret key
+  resave: false,
+  saveUninitialized: false,
+  cookie: { secure: false } // Set to true if using HTTPS
+}));
+```
+
+Next, create the custom middleware to check authentication:
+```javascript
+// Middleware function to check authentication
+function checkAuth(req, res, next) {
+  if (req.session && req.session.user) {
+    // Session exists and user is authenticated
+    next();
+  } else {
+    // Session does not exist or user is not authenticated
+
+```javascript
+    res.status(401).json({ error: 'Unauthorized access' });
+  }
+}
+
+// Apply the middleware to routes that require authentication
+app.use('/protected-route', checkAuth);
+
+app.get('/protected-route', (req, res) => {
+  res.send('This is a protected route and you are authenticated.');
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+```
+
+### Detailed Explanation
+
+1. **Session Setup**:
+   - The `express-session` middleware is set up with some basic configurations:
+     - `secret`: A string used to sign the session ID cookie.
+     - `resave`: Forces the session to be saved back to the session store, even if it was never modified during the request.
+     - `saveUninitialized`: Forces a session that is "uninitialized" to be saved to the store. A session is uninitialized when it is new but not modified.
+     - `cookie`: The options for the session ID cookie. Here, `secure` is set to `false` for simplicity (use `true` in production with HTTPS).
+
+2. **Custom Middleware (`checkAuth`)**:
+   - The middleware function checks if the session exists and if it has a `user` property.
+   - If the session and user exist, `next()` is called to proceed to the next middleware or route handler.
+   - If not, it sends a `401 Unauthorized` response.
+
+3. **Applying the Middleware**:
+   - The middleware is applied to any route that requires authentication by using `app.use('/protected-route', checkAuth);`.
+   - An example protected route `/protected-route` is defined, which sends a response only if the user is authenticated.
+
+You can add the `checkAuth` middleware to any route that needs authentication by attaching it in a similar manner.
