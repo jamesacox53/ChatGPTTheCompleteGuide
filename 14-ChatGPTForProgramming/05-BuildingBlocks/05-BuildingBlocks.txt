@@ -1,0 +1,10 @@
+ChatGPT is more useful if you do have development experience. As a developer
+you can massively boost your productivity by using ChatGPT. The instructor
+recommends that you don't ask ChatGPT for an entire application/website
+because as your application/webiste grows ChatGPT will struggle to give
+you the code for the entire application in one step. Instead he recommends
+that you use ChatGPT to generate and build individual building blocks
+which you then manually combine to build the overall app.
+
+You use ChatGPT to speed up the development of the individual application
+building blocks.
