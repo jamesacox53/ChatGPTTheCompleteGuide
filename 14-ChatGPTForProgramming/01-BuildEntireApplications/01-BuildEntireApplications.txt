@@ -1,0 +1,51 @@
+You can use ChatGPT to create utility programs. You can give ChatGPT basic
+programming tasks.For example:
+"You are an experienced developer.
+
+Please create a program that scans all files in a given folder and organizes them
+into subfolders by type:
+- Audio files should go into an "audio" folder
+- Video files should go into a "video" folder
+- Other files should go into an "other" folder"
+
+Usually ChatGPT will use python.
+The code that ChatGPT created:
+"import os
+import shutil
+
+# Define file type extensions
+AUDIO_EXTENSIONS = ['.mp3', '.wav', '.aac', '.flac']
+VIDEO_EXTENSIONS = ['.mp4', '.avi', '.mov', '.mkv']
+
+def organize_files(folder_path):
+    # Create subfolders if they don't exist
+    audio_folder = os.path.join(folder_path, 'audio')
+    video_folder = os.path.join(folder_path, 'video')
+    other_folder = os.path.join(folder_path, 'other')
+    
+    for subfolder in [audio_folder, video_folder, other_folder]:
+        os.makedirs(subfolder, exist_ok=True)
+    
+    # Iterate through all files in the folder
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        
+        # Skip directories
+        if os.path.isdir(file_path):
+            continue
+        
+        # Determine the file extension
+        _, file_extension = os.path.splitext(filename)
+        
+        # Move files based on their type
+        if file_extension in AUDIO_EXTENSIONS:
+            shutil.move(file_path, os.path.join(audio_folder, filename))
+        elif file_extension in VIDEO_EXTENSIONS:
+            shutil.move(file_path, os.path.join(video_folder, filename))
+        else:
+            shutil.move(file_path, os.path.join(other_folder, filename))
+    
+    print("Files have been organized.")
+
+# Usage example:
+# organize_files('/path/to/your/folder')"
