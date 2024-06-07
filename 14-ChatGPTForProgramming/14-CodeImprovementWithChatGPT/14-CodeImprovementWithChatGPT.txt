@@ -1,0 +1,15 @@
+Another area where ChatGPT can be useful is refactoring and optimizing our
+code. You can get ChatGPT to refactor your code or use ChatGPT to get
+ideas on how your code can be improved.
+
+You can have the prompt:
+"You are an experienced NodeJS & Express developer.
+
+Please Analyze the following code (between the ---) and explore how it
+could be improved.
+
+---
+code
+---"
+
+You could also ask for a list of improvement suggestions.
