@@ -1,0 +1,5 @@
+You can skip the extra explanations that ChatGPT adds to it's responses.
+You may want to consider adding some extra context to the end of your
+prompt:
+"Give me just the code, no extra explanations or text. But make sure the
+code is formatted as such."
