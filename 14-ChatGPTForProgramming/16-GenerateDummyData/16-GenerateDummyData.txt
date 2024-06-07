@@ -1,0 +1,10 @@
+You can get ChatGPT to generate dummy data for you:
+For example here is a prompt:
+"You are a data generator.
+
+Generate some dummy user data which I can use in my web application during
+development.
+
+Every user should have a name, email and password.
+The data should be formatted as JSON. Just return the JSON-formatted data,
+no other extra explanation. Format the JSON data as code."
