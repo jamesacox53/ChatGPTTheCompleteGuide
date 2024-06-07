@@ -1,0 +1,117 @@
+You can use ChatGPT to refactor code.
+For example with the prompt:
+"You are an experienced python developer.
+
+Please refactor the below code (between the ---) to be clean code.
+Split the code across multiple files where it makes sense and perform
+any other refactoring tasks that make sense.
+
+---
+import random
+from datetime import datetime, timedelta
+
+def generate_dummy_data(n):
+    identifiers = ['ACAD', 'LEARN', 'DUMMY']
+    start_date = datetime.now().date()
+    stock_data = []
+
+    for i in range(n):
+        current_date = start_date + timedelta(days=i)
+        for identifier in identifiers:
+            if i == 0:
+                price = round(random.uniform(50, 200), 2)
+            else:
+                prev_price = next((data[1] for data in stock_data if data[0] == identifier and data[2] == current_date - timedelta(days=1)), None)
+                if prev_price is None:
+                    price = round(random.uniform(50, 200), 2)
+                else:
+                    price = round(prev_price + random.uniform(-5, 5), 2)
+
+            stock_data.append((identifier, price, current_date))
+
+    return stock_data
+
+if __name__ == '__main__':
+    n = input("Enter the number of dates for which data points should be generated: ")
+    dummy_data = generate_dummy_data(n)  # Convert the user input to an integer using int()
+    for data_point in dummy_data:
+        print(data_point)
+---
+
+
+-------------
+
+ChatGPTs response:
+To refactor the given code, we'll split it into multiple files to improve modularity, readability, and maintainability. We'll create the following files:
+
+1. `data_generator.py`: Contains the main logic for generating dummy data.
+2. `utils.py`: Contains utility functions that may be reused.
+3. `main.py`: The entry point for the script that interacts with the user.
+
+### File: `data_generator.py`
+This file contains the main logic for generating the dummy data.
+
+```python
+import random
+from datetime import datetime, timedelta
+
+def generate_dummy_data(n):
+    identifiers = ['ACAD', 'LEARN', 'DUMMY']
+    start_date = datetime.now().date()
+    stock_data = []
+
+    for i in range(n):
+        current_date = start_date + timedelta(days=i)
+        for identifier in identifiers:
+            if i == 0:
+                price = round(random.uniform(50, 200), 2)
+            else:
+                prev_price = next((data[1] for data in stock_data if data[0] == identifier and data[2] == current_date - timedelta(days=1)), None)
+                if prev_price is None:
+                    price = round(random.uniform(50, 200), 2)
+                else:
+                    price = round(prev_price + random.uniform(-5, 5), 2)
+
+            stock_data.append((identifier, price, current_date))
+
+    return stock_data
+```
+
+### File: `utils.py`
+This file contains utility functions, such as one for validating user input.
+
+```python
+def get_valid_integer(prompt):
+    while True:
+        try:
+            value = int(input(prompt))
+            if value < 0:
+                raise ValueError
+            return value
+        except ValueError:
+            print("Please enter a valid positive integer.")
+```
+
+### File: `main.py`
+This file serves as the entry point for the script.
+
+```python
+from data_generator import generate_dummy_data
+from utils import get_valid_integer
+
+if __name__ == '__main__':
+    n = get_valid_integer("Enter the number of dates for which data points should be generated: ")
+    dummy_data = generate_dummy_data(n)
+    for data_point in dummy_data:
+        print(data_point)
+```
+
+### Summary of Changes
+1. **Code Separation**: We separated the code into three files to improve modularity.
+   - `data_generator.py` handles the core logic of data generation.
+   - `utils.py` contains a reusable function for input validation.
+   - `main.py` is the entry point of the program.
+2. **Input Validation**: We added a utility function in `utils.py` to validate the user input for a positive integer.
+3. **Refactoring**: The code logic was preserved, but the structure was improved for readability and maintainability.
+
+This modular approach allows for easier testing and future enhancements. 
