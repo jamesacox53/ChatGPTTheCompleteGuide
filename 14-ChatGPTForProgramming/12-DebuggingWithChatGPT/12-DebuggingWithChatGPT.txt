@@ -1,0 +1,113 @@
+ChatGPT isn't limited to generating new code. You can also use it for 
+debugging, to find and fix errors. To do that you can report errors that
+you are getting when running your code + any relevant code snippets that
+might be needed to ChatGPT to speed up the debugging process and find and
+fix errors quickly.
+
+To see ChatGPT debugging the instructor has included a simple python program
+that generates some dummy stock data. As soon as you run the code you get
+an error.
+
+Here's the prompt that I used:
+"You are an experienced python developer.
+
+Your goal is to find a bug in an existing codebase and suggest a solution.
+
+Here's the code(between the ---):
+---
+import random
+from datetime import datetime, timedelta
+
+def generate_dummy_data(n):
+    identifiers = ['ACAD', 'LEARN', 'DUMMY']
+    start_date = datetime.now().date()
+    stock_data = []
+
+    for i in range(n):
+        current_date = start_date + timedelta(days=i)
+        for identifier in identifiers:
+            if i == 0:
+                price = round(random.uniform(50, 200), 2)
+            else:
+                prev_price = next((data[1] for data in stock_data if data[0] == identifier and data[2] == current_date - timedelta(days=1)), None)
+                if prev_price is None:
+                    price = round(random.uniform(50, 200), 2)
+                else:
+                    price = round(prev_price + random.uniform(-5, 5), 2)
+
+            stock_data.append((identifier, price, current_date))
+
+    return stock_data
+
+if __name__ == '__main__':
+    n = input("Enter the number of dates for which data points should be generated: ")
+    dummy_data = generate_dummy_data(n)  # Convert the user input to an integer using int()
+    for data_point in dummy_data:
+        print(data_point)
+---
+
+Here's the error message:
+TypeError:'str' object cannot be interpreted as an integer"
+
+
+--------------
+
+Here's the response:
+"The error message "TypeError: 'str' object cannot be interpreted as an integer" indicates that the input value `n` is being treated as a string instead of an integer when passed to the `generate_dummy_data` function. This occurs because `input()` in Python always returns a string, but the function expects an integer.
+
+To fix this, you need to convert the input to an integer using `int()`. Here is the corrected code:
+
+```python
+import random
+from datetime import datetime, timedelta
+
+def generate_dummy_data(n):
+    identifiers = ['ACAD', 'LEARN', 'DUMMY']
+    start_date = datetime.now().date()
+    stock_data = []
+
+    for i in range(n):
+        current_date = start_date + timedelta(days=i)
+        for identifier in identifiers:
+            if i == 0:
+                price = round(random.uniform(50, 200), 2)
+            else:
+                prev_price = next((data[1] for data in stock_data if data[0] == identifier and data[2] == current_date - timedelta(days=1)), None)
+                if prev_price is None:
+                    price = round(random.uniform(50, 200), 2)
+                else:
+                    price = round(prev_price + random.uniform(-5, 5), 2)
+
+            stock_data.append((identifier, price, current_date))
+
+    return stock_data
+
+if __name__ == '__main__':
+    n = int(input("Enter the number of dates for which data points should be generated: "))  # Convert the user input to an integer using int()
+    dummy_data = generate_dummy_data(n)
+    for data_point in dummy_data:
+        print(data_point)
+```
+
+### Explanation:
+1. The main change is in the `__main__` block where the user input is converted to an integer:
+    ```python
+    n = int(input("Enter the number of dates for which data points should be generated: "))
+    ```
+   This ensures that `n` is an integer when passed to the `generate_dummy_data` function.
+
+### Additional Note:
+It’s also a good practice to handle potential exceptions, such as when the user inputs something that cannot be converted to an integer. Here’s an example of how you might add such error handling:
+
+```python
+if __name__ == '__main__':
+    try:
+        n = int(input("Enter the number of dates for which data points should be generated: "))
+        dummy_data = generate_dummy_data(n)
+        for data_point in dummy_data:
+            print(data_point)
+    except ValueError:
+        print("Please enter a valid integer.")
+```
+
+This will prompt the user to enter a valid integer if they enter invalid input."
