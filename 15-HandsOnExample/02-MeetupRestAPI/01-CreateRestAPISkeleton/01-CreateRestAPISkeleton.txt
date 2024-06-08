@@ -1,0 +1,96 @@
+To get the REST API Skeleton I used the prompt:
+"You are an experienced NodeJS developer.
+
+Give me a basic REST API skeleton for my app.js file.
+
+Use the Express framework.
+Add the following routes:
+- POST /meetups
+- GET /meetups
+- PATCH /meetups/<id>
+- DELETE /meetups/<id>"
+
+
+----------
+
+Here is the response that ChatGPT gives me:
+Certainly! Here's a basic REST API skeleton for your `app.js` file using the Express framework. This includes the routes you specified.
+
+```javascript
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const port = 3000;
+
+// Middleware to parse JSON bodies
+app.use(bodyParser.json());
+
+// In-memory storage for meetups (for demo purposes)
+let meetups = [];
+let nextId = 1;
+
+// POST /meetups
+app.post('/meetups', (req, res) => {
+  const meetup = { id: nextId++, ...req.body };
+  meetups.push(meetup);
+  res.status(201).json(meetup);
+});
+
+// GET /meetups
+app.get('/meetups', (req, res) => {
+  res.json(meetups);
+});
+
+// PATCH /meetups/:id
+app.patch('/meetups/:id', (req, res) => {
+  const { id } = req.params;
+  const index = meetups.findIndex(meetup => meetup.id == id);
+
+  if (index === -1) {
+    return res.status(404).json({ error: 'Meetup not found' });
+  }
+
+  meetups[index] = { ...meetups[index], ...req.body };
+  res.json(meetups[index]);
+});
+
+// DELETE /meetups/:id
+app.delete('/meetups/:id', (req, res) => {
+  const { id } = req.params;
+  const index = meetups.findIndex(meetup => meetup.id == id);
+
+  if (index === -1) {
+    return res.status(404).json({ error: 'Meetup not found' });
+  }
+
+  meetups.splice(index, 1);
+  res.status(204).send();
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
+```
+
+### Explanation:
+
+1. **Dependencies and Middleware**:
+   - Import the required modules: `express` for the server and `body-parser` to handle JSON payloads.
+   - Use `bodyParser.json()` to parse JSON request bodies.
+
+2. **In-Memory Storage**:
+   - For simplicity, an array `meetups` is used to store meetup data and `nextId` to generate unique IDs for new meetups.
+
+3. **Routes**:
+   - **POST /meetups**: Creates a new meetup. The request body is expected to contain the meetup details. The new meetup is assigned a unique ID and added to the `meetups` array.
+   - **GET /meetups**: Returns a list of all meetups.
+   - **PATCH /meetups/:id**: Updates the meetup with the specified ID. If the meetup is found, it merges the existing data with the new data from the request body.
+   - **DELETE /meetups/:id**: Deletes the meetup with the specified ID. If the meetup is found, it is removed from the `meetups` array.
+
+4. **Error Handling**:
+   - Appropriate HTTP status codes are returned for each operation (e.g., `201` for creation, `404` for not found, `204` for successful deletion with no content).
+
+5. **Server Initialization**:
+   - The server is set to listen on port 3000, and a message is logged to the console when the server starts.
+
+This basic skeleton provides a solid starting point for your REST API. You can further enhance it by adding more advanced features such as database integration, authentication, and validation.
