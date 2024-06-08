@@ -1,3 +1,29 @@
+Now we want to add a Highscore to the game. We want to save the number of
+turns that it took a player to win and display the current highscore after
+every game.
+
+In the existing chat I wrote the prompt:
+"Please now also add a "Highscore" feature to the game:
+For every username, the game should keep track of the rounds it took the
+user to win the game. The username-rounds combinations should the be ordered
+by the number of rounds (in ascending order).
+
+The highscore should be saved in a text file and the updated highscore should
+be displayed after every game (if the player won)."
+
+
+----------
+
+ChatGPTs response:
+"To add a "Highscore" feature to the game, we'll need to:
+
+1. Track the rounds it took for a user to win.
+2. Save the highscore (username and rounds) to a text file.
+3. Load and display the highscore from the text file after each game.
+
+Here’s the updated code:
+
+```python
 import random
 import json
 
@@ -141,3 +167,19 @@ def game():
 
 if __name__ == "__main__":
     game()
+```
+
+### Explanation of Enhancements:
+
+1. **Highscore Tracking**:
+   - **File Handling**: We use a text file (`highscore.txt`) to store highscores. The `json` module is used for easy serialization and deserialization of highscore data.
+   - **Loading Highscore**: The `load_highscore` function reads the highscore data from the text file and returns it as a list. If the file doesn't exist, it returns an empty list.
+   - **Saving Highscore**: The `save_highscore` function writes the highscore data to the text file.
+   - **Updating Highscore**: The `update_highscore` function updates the highscore list with the current game results, sorts it by rounds, and saves it back to the file.
+   - **Displaying Highscore**: The `display_highscore` function prints the highscore list after each game.
+
+2. **Game Flow**:
+   - If the player wins, the game updates and displays the highscore list.
+   - The highscore file is updated and displayed only when the player wins.
+
+You can run this updated script to play the enhanced game with highscores."
