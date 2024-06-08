@@ -1,3 +1,20 @@
+We want to enhance the game by letting a user pick a username when the 
+game starts. We also want to enhance the game by adding different levels
+of difficulty to the game by adjusting the damage and heal values based on
+the chosen level. I am going to combine these enhancements into 1 prompt.
+So in the same chat where the game was created I used the prompt:
+
+"Please enhance the game by allowing the user to choose a username when the
+program starts. Also add difficulty levels. The player should be able to
+choose between three levels that affect the damage and heal values."
+
+
+---------
+
+Here is ChatGPT's response:
+"Sure, let's enhance the game with a username and difficulty levels. We'll adjust the damage and heal values based on the chosen difficulty level: Easy, Medium, or Hard. Here’s the updated code:
+
+```python
 import random
 
 def attack(regular=True, difficulty="Medium"):
@@ -108,3 +125,13 @@ def game():
 
 if __name__ == "__main__":
     game()
+```
+
+### Explanation of Enhancements:
+
+1. **Username**: The player is prompted to enter a username at the start of the game, which is then used throughout the game.
+2. **Difficulty Levels**:
+   - Easy, Medium, and Hard difficulties affect the damage and heal values.
+   - The player chooses a difficulty level at the start of the game, which adjusts the ranges for attacks and healing.
+
+You can run this script to play the enhanced version of the game with username input and difficulty levels."
