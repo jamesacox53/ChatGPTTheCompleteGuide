@@ -1,3 +1,19 @@
+In our existing chat we can write:
+
+"Please update the code to improve error handling.
+
+Instead of sending error responses right away, throw error objects that
+contain appropriate error status codes. Then add a generic error handling
+middleware which is triggered by all those errors and return appropriate
+error responses there."
+
+
+----------
+
+ChatGPT's response:
+Sure, we can refactor the code to use error objects for improved error handling and add a generic error handling middleware. Here’s the updated version of `app.js`:
+
+```javascript
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
@@ -78,6 +94,9 @@ app.post('/signup', async (req, res, next) => {
 app.post('/login', async (req, res, next) => {
   try {
     const { email, password } = req.body;
+   
+
+```javascript
     if (!email || !password) {
       throw { status: 400, message: 'Email and password are required' };
     }
@@ -185,3 +204,17 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+```
+
+### Explanation:
+
+1. **Error Handling**:
+   - Errors are thrown as objects containing `status` and `message` properties.
+   - Each route includes a `try-catch` block. In case of an error, the `catch` block forwards the error to the next middleware using `next(error)`.
+
+2. **Generic Error Handling Middleware**:
+   - The middleware captures all errors passed to `next`.
+   - It extracts the `status` and `message` from the error object (defaulting to `500` and `'Internal Server Error'` respectively if not provided).
+   - The error response is sent to the client with the appropriate HTTP status code and message.
+
+This setup ensures consistent and centralized error handling across the application, making it easier to manage and debug errors.
