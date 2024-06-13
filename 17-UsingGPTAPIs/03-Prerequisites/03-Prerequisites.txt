@@ -1,0 +1,6 @@
+Prerequisites to use the api with Python:
+- You need Python
+- Pip (Package Manager)
+- Open AI Library (pip install openai)
+
+The openai package makes using the api a lot easier for us.

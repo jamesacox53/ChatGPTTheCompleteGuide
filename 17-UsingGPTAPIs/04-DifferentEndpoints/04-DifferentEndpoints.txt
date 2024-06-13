@@ -1,0 +1,24 @@
+There are different api endpoints that you can use.
+What are the differences between the Completions and Chat
+Completion endpoints?
+
+To use the Completion API endpoint you would use something like:
+openai.Completion.create(
+    model="text-davinci-003",
+    prompt="My prompt",
+    ....
+)
+
+To use the Chat Completion API endpoint you would use something
+like:
+openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role":"user", "content":"MyPrompt"}
+    ],
+    ....
+)
+
+Only with the ChatCompletion endpoint can we use gpt 3.5 or
+gpt 4 models. As this is the goal in the course and the
+recommendation we will use the ChatCompletion endpoint.
