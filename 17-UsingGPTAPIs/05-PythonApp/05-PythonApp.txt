@@ -1,0 +1,23 @@
+Do pip install openai
+
+Then here is an example script:
+"import openai
+openai.api_key = "OPENAI_API_KEY"
+
+completion = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo"
+    messages=[
+        {"role":"user", "content":"Hello!"}
+    ]
+)
+
+print(completion.choices[0].message)"
+
+You should have an api key when you create your account.
+Using the APIs aren't free. Paste it into the OPENAI_API_KEY.
+You can run the app.py file and you should get a response.
+Here is what was printed:
+{
+    "content": "Hello there! How can I assist you today?",
+    "role": "assistant"
+}
