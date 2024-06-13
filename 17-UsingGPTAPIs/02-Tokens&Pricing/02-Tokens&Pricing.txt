@@ -1,0 +1,22 @@
+1 Token ~ 0.75 Words or 4 Characters.
+
+This refers to your prompts/messages that you send to ChatGPT
+and the responses you get. Any kind of communication is measured
+and tracked as tokens.
+
+Number of tokens that each model can process:
+gpt-4: 8,192
+gpt-4-32k: 32,768
+gpt-3.5-turbo: 4,096
+
+These token numbers aren't a limit. These simply define the
+context limit for prompts and answers. If you build a website
+with an ongoing chat that uses the gpt-4 model after 8,192
+tokens the api will lose the context of any topics discussed
+beyond this limit. So if the conversation started at 0 and now
+we have 10,000 tokens, the first 2000 tokens won't be in
+memory any more of the gpt model. This limit includes prompts
+and answers, ChatGPT will forget both earlier prompts and earlier
+outputs.
+
+The pricing of using the APIs is also based on tokens.
