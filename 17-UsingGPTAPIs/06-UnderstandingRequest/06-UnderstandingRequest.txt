@@ -52,4 +52,5 @@ print(completion.choices[0].message)"
 Now we can ask questions from the terminal.
 
 Me: I believe the role of user and assistant is to show if
-we wrote the message or if it was ChatGPT.
+we wrote the message or if it was ChatGPT. The role can be:
+system, user or assistant.

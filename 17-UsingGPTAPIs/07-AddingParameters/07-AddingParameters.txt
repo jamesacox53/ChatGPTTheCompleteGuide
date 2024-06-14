@@ -1,0 +1,15 @@
+The parameters we can configure differ depending on the selected
+endpoint you are using. We will focus on the Chat Completion
+endpoint.
+
+There are 2 required parameters: model and messages. There are
+quite a few optional parameters as well.
+
+There is the temperature optional parameter which defines the
+randomness of the output that is created by ChatGPT. We will
+go with 0.2.
+
+The other core parameter that you should be aware of is the
+max_tokens optional parameter. These max_tokens just limit the
+length of the output, of the response you get for your api
+request. At the moment we will go with 100.
