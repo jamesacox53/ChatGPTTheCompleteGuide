@@ -1,0 +1,16 @@
+if instead of: print(completion.choices[0].message)
+you wrote print(completion) you get a big response object.
+The completion variable not only stores the logic to create
+the request. But also the response we receive from the api.
+Inside this response object, inside the code we receive from
+the api we can find many different keys. We can find the 
+choices key, we have the id key, the model key, we see the
+endpoint and information about the tokens used to complete the
+tasks, for the output and for the prompt.
+
+choices contains a list. In each element of the list there
+is a dictionary and they have keys we can access. Some of the
+keys are: finish_reason, index, message. Message is also a dictionary
+which contains the keys: content and role.
+
+
