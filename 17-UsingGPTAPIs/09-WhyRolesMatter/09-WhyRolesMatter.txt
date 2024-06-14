@@ -1,0 +1,15 @@
+There are different roles when using the api. We have the user
+role for ourselves/the person interacting with the api. The
+person that is sending requests.
+
+We also have the assistant role for the api itself. The
+assistant role provides the output, so the response for our
+request.
+
+The content of the user is the prompt and the content of the
+assistant is the output the that api generates.
+
+The messages parameter with the different roles lets us have
+an actual chat with the api. Everything in the messages
+parameter will be taken into account when sending a request
+to the api.
