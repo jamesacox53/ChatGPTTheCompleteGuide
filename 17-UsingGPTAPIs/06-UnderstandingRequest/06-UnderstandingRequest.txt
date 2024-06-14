@@ -1,0 +1,55 @@
+In the request we have to define what type of information,
+what question, what prompt in the end we want to send to the api.
+The whole management of this request is defined in our
+completion variable, specifically inside the create function:
+"completion = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo"
+    messages=[
+        {"role":"user", "content":"Hello!"}
+    ]
+)"
+
+The function contains different parameters like model and
+messages. These parameters configure the request. One of the 
+parameters we have to define to send the request is the model
+parameter. In our case we use the gpt-3.5-turbo model.
+
+The messages parameter contains a python list which contains
+a dictionary. The dictionary always contains key value pairs.
+What this means is that we want to send the following message
+to ChatGPT when sending our request. Our role is the role of the
+user so we are the person who wants to interact with the api.
+The content we want to send to the api is Hello!. If we change
+this from Hello! to a question like 'What is the capital of
+France?' and re-run our script we get this printed to the
+screen:
+
+{
+    "content": "The capital of France is Paris.",
+    "role": "assistant"
+}
+
+With the user role and the content key we can define what the
+user wants to ask the api. Instead of hardcoding the content
+we can add a dedicated variable for this user input that allows
+the user to directly ask a question or write down the instruction
+in the terminal.
+
+"import openai
+openai.api_key = "OPENAI_API_KEY"
+
+user_input = input("Add your prompt: ")
+
+completion = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo"
+    messages=[
+        {"role":"user", "content": user_input}
+    ]
+)
+
+print(completion.choices[0].message)"
+
+Now we can ask questions from the terminal.
+
+Me: I believe the role of user and assistant is to show if
+we wrote the message or if it was ChatGPT.
