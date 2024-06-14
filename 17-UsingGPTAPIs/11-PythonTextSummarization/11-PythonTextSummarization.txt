@@ -1,0 +1,8 @@
+The system role allows us to give the api specific user input
+independent instructions. So these are instructions that the
+user shouldn't see but that we need to give to the api.
+
+So before the user role we need to define the system role like
+this:
+{"role":"system", "content": "You are a text summarizer chat bot. Your goal is to summarize the text that is given by the user."},
+{"role":"user", "content": input_text}
