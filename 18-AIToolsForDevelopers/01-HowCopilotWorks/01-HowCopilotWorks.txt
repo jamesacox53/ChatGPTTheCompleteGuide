@@ -1,0 +1,25 @@
+With Copilot it automatically scans the code you are working on.
+It scans the whole file and it uses this as context to generate
+smart suggestions for you. To get those suggestions it's often
+enough to just tab into a new line. You might get some grey
+text which is suggested by copilot. You can hit tab to accept
+and implement the suggestion.
+
+Alternatively you can also run the:
+'GitHub Copilot: Open Completions Panel' command
+to see some more complex and complete suggestions then the
+suggestions that you are getting right in the code. In the code
+you often just get a single line completion. When you accept
+that and jump to the next line you get a suggestion for that line.
+Alternatively you can open that completions menu and see the
+finished multi-line suggestion. There are often multiple suggestions
+in the completions menu. You can accept a solution by clicking 
+on the 'Accept Solution' above the suggestion.
+
+Me: I think you need the file open for Copilot to consider it's
+content for the suggestion. You can have it open as another tab
+in VS Code.
+
+Copilot doesn't scan all your code, it just uses the code it saw.
+It doesn't just use the code it saw in a single file but from
+multiple files.
