@@ -1,0 +1,9 @@
+We've got some basic code but we've got no data to analyze. We can use
+this IDE to generate the dummy data. We add the new file sales_data.csv.
+
+In the sales_data.csv file we can press Ctrl + k, then we type into
+the prompt:
+'Generate some dummy csv sales data where every entry has an id,
+a customer id, a product id, a date, a quantity and a price.
+
+Generate 30 rows of data.'
