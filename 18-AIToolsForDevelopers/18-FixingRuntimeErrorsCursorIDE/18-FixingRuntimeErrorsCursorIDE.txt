@@ -1,0 +1,3 @@
+We can try to run the code and any runtime errors we get we can add to the chat. If we
+hover over the error we get an 'Auto debug' button which we can press to let the
+AI debug this error. It tries to understand the error and suggests a solution.
