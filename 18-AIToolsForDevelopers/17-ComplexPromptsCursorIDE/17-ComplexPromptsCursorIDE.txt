@@ -1,0 +1,47 @@
+In the chat you can create more complex prompts by typing something
+like:
+'How can I clean the data? @analyze_csv @sales_data.csv
+@Pandas'
+
+You can use the Pandas library docs in the prompt to get CursorIDE
+to use the Pandas library. This IDE has links to many official
+documentation pages. Those documentation pages can be searched by
+the AI.
+
+The AI will analyze the 2 files and the Pandas docs to explain what
+we can do to clean our data.
+
+CursorIDE's response:
+To clean the data in your `sales_data.csv` using the analyze_csv.py script, you can follow these steps:
+
+1. **Handle Missing Values**: Check for any missing values and decide whether to fill them or drop the rows/columns containing them.
+2. **Convert Data Types**: Ensure that each column has the appropriate data type for the analysis.
+3. **Remove Duplicates**: Check for and remove any duplicate rows.
+
+Here's how you can modify the load_csv function in your script to include these data cleaning steps:
+
+```analyze_csv.py
+4|def load_csv(file_path):
+5|    """Load the CSV file into a DataFrame and clean the data."""
+6|    df = pd.read_csv(file_path)
+7|    
+8|    # Handling missing values
+9|    df.dropna(inplace=True)  # or use df.fillna(method='ffill') to fill missing values
+10|    
+11|    # Convert data types if necessary, for example:
+12|    df['date'] = pd.to_datetime(df['date'])
+13|    df['quantity'] = df['quantity'].astype(int)
+14|    df['price'] = df['price'].astype(float)
+15|    
+16|    # Remove duplicates
+17|    df.drop_duplicates(inplace=True)
+18|    
+19|    return df
+```
+
+This modification will:
+- Remove rows with any missing values.
+- Convert the 'date' column to datetime format, and 'quantity' and 'price' to integer and float types respectively.
+- Remove duplicate rows based on all columns.
+
+Make sure to adjust the cleaning steps based on the specific requirements and characteristics of your data.
