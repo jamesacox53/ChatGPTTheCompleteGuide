@@ -1,0 +1,17 @@
+Github Copilot really shines when it come to writing functions.
+When creating a function you are giving that function a name and
+that name allows copilot to suggest which code should go into this
+function. For example a function to pick a random number up to a max
+number.
+
+If you type in:
+function genRandomInt(max) {
+
+Copilot may suggest the remainder of the function:
+function genRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+You can hover over a suggestion and look through the different
+suggestions to find one that you want to accept. Or you can just
+accept part of a suggestion.
