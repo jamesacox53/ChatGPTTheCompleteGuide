@@ -1,0 +1,7 @@
+AutoGPT is a tool, a program that you can install on your system to define a goal
+and then let that program figure out the steps to get to that goal. It's not just
+about figuring out the steps. The tool AutoGPT can also execute the steps for you.
+Under the hood AutoGPT is using those GPT models that also are getting used by
+ChatGPT. AutoGPT has internet and file access so it can perform a web search
+and it's able to work with your local files. It can write the results of a web
+search to a local file.
