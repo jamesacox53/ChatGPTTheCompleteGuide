@@ -1,0 +1,25 @@
+When working with Copilot in most cases starting to write some code
+gets you there. But sometimes you might start working on a feature
+where there's so little context or that's so specific that Copilot
+just can't give you good suggestions and good variable and good function
+naming isn't enough.
+
+You can write a comment almost like a prompt to describe what you
+want to achieve or which kind of code should come after the comment.
+
+For example:
+// An exported Footer component that displays my name "James Cox" and
+the copyright sign.
+
+Then if you start typing:
+export default function Footer() {
+
+Copilot could give the suggestion:
+export default function Footer() {
+    return (
+        <footer>
+            <p>James Cox</p>
+            <p>&copy; 2024</p>
+        </footer>
+    );
+}
