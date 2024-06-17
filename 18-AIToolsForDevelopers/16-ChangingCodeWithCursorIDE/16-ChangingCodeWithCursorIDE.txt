@@ -1,0 +1,4 @@
+We can use CursorIDE to edit code. If we select the code to edit
+then we can press Ctrl + k. Then we can type in our prompt to edit
+the code. You could type:
+'Import the sales data from the csv file you created.'
