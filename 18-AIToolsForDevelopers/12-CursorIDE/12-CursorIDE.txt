@@ -1,0 +1,6 @@
+The Cursor IDE is a fork of the VS Code editor. But it's a copy that
+puts AI first, it integrates AI into the very core of the editor. This
+IDE is all about Prompt-focused, AI-driven programming. You'll still
+write code but you'll also write alot of AI instructions. Often your
+main job is to tweak and control the code that is generated. The
+great thing about this editor is that you can get started for free.
