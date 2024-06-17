@@ -1,0 +1,11 @@
+There is an extension to Copilot called Copilot Chat that adds an
+AI chat interface into your IDE. With this extension you basically
+get a ChatGPT like interface in your code editor and of course the
+great thing about that interface is that it may interact with your
+code. It can change your code, it can read your code and use it as
+context. It can save you from the hastle of switching from you code
+base to ChatGPT.
+
+You can therefore use Copilot Chat to get code explanations, fix
+errors in your code, to generate unit tests and also do a couple of
+other things.
