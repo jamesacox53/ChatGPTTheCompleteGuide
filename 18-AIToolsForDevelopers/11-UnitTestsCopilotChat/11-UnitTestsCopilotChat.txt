@@ -1,0 +1,9 @@
+Another area where Copilot Chat can be useful is the area of writing
+automated tests. You can highlight the code that you want to generate
+unit tests for. Then use the command 'GitHub Copilot: Generate Tests'.
+This will open up a text box where you can provide more details.
+You could type:
+'Generate some unit tests for the TabButton component'. It then gives
+you a suggestion. It can give you a suggestion for a new tests file.
+If you accept this new file contains some possible unit tests for the
+code you selected.
