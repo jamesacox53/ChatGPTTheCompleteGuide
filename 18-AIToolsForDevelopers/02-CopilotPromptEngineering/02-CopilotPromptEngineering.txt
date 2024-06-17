@@ -1,0 +1,15 @@
+You can help github copilot make some good suggestions by starting
+some lines of code and by picking variable or function names that
+give github copilot an idea of what you are trying to achieve.
+
+You start typing and you may get a suggestion. But if it's not what
+you want then you continue typing.
+
+if you type in:
+const firstDescription =
+
+Then copilot could give the suggestion:
+const firstDescription = reactDescription[0];
+
+which is what you want so you can just tab to accept the suggestion.
+You got the suggestion as you picked the name firstDescription.
