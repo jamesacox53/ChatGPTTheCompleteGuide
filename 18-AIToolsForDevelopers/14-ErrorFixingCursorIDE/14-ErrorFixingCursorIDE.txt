@@ -1,0 +1,5 @@
+What's great about the CursorIDE is that you can use it to quickly
+fix problems with your code. When you hover over a squigly line
+there is an 'AI Fix in Chat' button. You click this button to ask
+the AI for a fix. It gives you a detailed explanation of the problem
+and possible steps to solve the problem.
