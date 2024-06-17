@@ -1,0 +1,16 @@
+Copilot works with any programming language. It's not limited to
+JavaScript. It also works with CSS to add some styling to the website.
+You could also use it with C++, C#, Java, Go, whatever you want.
+
+You can type in footer {
+
+And Copilot can suggest:
+footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+You could try to style specific elements like:
+#examples menu button {
+
+and then Copilot could suggest a bunch of stuff.
