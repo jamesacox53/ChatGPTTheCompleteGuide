@@ -1,0 +1,12 @@
+Copilot Chat can not just be used to explain code, but to generate
+code.
+
+You don't need to have anything selected. You can type in to the
+Copilot Chat: 'Give me the code for an event handler function 
+called handleSelect that should set the selectedTopic state to
+the selected topic'
+
+The Copilot Chat generates the code in the chat and gives an
+explanation for it. You can just copy the code. You can also select
+where to copy the code to and then click the 'Insert at Cursor' button.
+You can also click 'Insert Into New File'.
