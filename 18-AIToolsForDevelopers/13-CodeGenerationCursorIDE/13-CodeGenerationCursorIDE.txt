@@ -1,0 +1,25 @@
+Here we want to setup a very basic python data analytics project. We
+want to do this with CursorIDE. If you press Ctrl + l it opens up a
+Chat window where you can ask questions. This is like Copilot Chat
+but has more features. You can use the '@' symbol to references files
+in our project, official documentation pages, parts of your code if
+you had any and so on.
+
+Also under the More tab you can give the AI some general rules which
+should then be taken into account automatically in all the answers
+you are getting to your chat messages. You can always start a new chat.
+
+We start by typing in our goal:
+'I want to create a python project where I can analyze csv files'.
+
+This will generate you some code in the chat. Alternatively you can
+click into a file and press Ctrl + k to generate you some code.
+This opens up a prompt and you would type in the prompt:
+'Import and analyze csv files'
+
+Then it adds that code right into the file. It doesn't add it
+automatically, you have to click 'Accept' and then it adds it. You
+can also add a follow up instruction if you're unhappy with the code.
+For example you could say:
+'Use pandas library'
+So it improves the code by using the pandas library instead.
