@@ -1,0 +1,4 @@
+You can Install Copilot Chat by going to the extensions of VS Code
+and search for GitHub Copilot Chat. Then install it. Now in the
+activity bar you will have a chat icon that you can click on to
+get a chat area. This chat area is GitHub Copilot Chat.
