@@ -1,0 +1,16 @@
+You can use Copilot Chat to explain code. You can highlight the code
+that isn't clear to you, or highlight the whole file. In the chat
+area you have some slash '/' commands:
+/explain
+/fix
+/help
+/tests
+/vscode
+/clear
+
+These are some built in commands that can be executed for some common
+problems. For example /explain to explain the selected code.
+
+Alternatively you can select the code and open the IDE commands
+and type in 'GitHub Copilot: Explain This'. This will yield the same
+result.
