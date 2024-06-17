@@ -1,0 +1,10 @@
+Copilot Chat can be used for fixing errors. You can select the part
+of your code that you think is responsible. You can then run the
+'GitHub Copilot: Fix This' command. It will then analyze this code.
+It will then try to find a potential problem and a fix for that
+problem. It won't go ahead and make that change but instead it will
+suggest some change. You see the old code on the left and the new code
+that could be used if you accept that change on the right. It
+highlights the part that was changed. If you aren't happy with some
+parts that were changed you could revert parts of the suggested
+change. Once you're happy you can click 'Accept' to accept the change.
