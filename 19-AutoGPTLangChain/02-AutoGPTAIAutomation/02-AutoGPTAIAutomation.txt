@@ -1,0 +1,33 @@
+You run AutoGPT from the terminal and it asks you:
+'I want Auto-GPT to:'
+
+Where you can specify what we want Auto-GPT to do. With AutoGPT it wants
+you to define a goal. Then AutoGPT will try to derive steps to reach
+that goal and it will perform these steps. It will also be able to search
+the internet to gather information and will be able to store it's output
+in files.
+
+For example you can have:
+'I want Auto-GPT to: write a short article about the evolution of gpt models'
+
+Now AutoGPT will send this input to the GPT models enhanced with some
+extra instructions which we can't see here that are encoded in it's
+code base. It will use these models to come up with a list of tasks or
+sub-goals which it also then tries to execute. It derived a role it should
+assume based on the goal we gave it. It also dervied some sub-goals
+based on our main goal.
+
+It then goes ahead and tries to execute. It always lets us know what it's
+Thoughts are, what it's Reasoning is, it comes up with a Plan and it has
+some self reflective thoughts of the plan as Criticisms.
+
+AutoGPT sent multiple prompts behind the scenes to the Gpt models to
+produce the: Thoughts, Reasoning, Plan and Criticism.
+
+Then it asks for your input to actualy execute as it's sending a lot
+of prompts behind the scenes as it's using your OpenAI key to pay for it.
+You type 'y' to go ahead or 'n' to stop.
+
+It can go on the internet and find articles and summarize them as text
+files. So if you ask it for a report it may create a bunch of text files
+in the directory while create your main article.
