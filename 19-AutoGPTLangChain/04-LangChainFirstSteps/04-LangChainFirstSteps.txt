@@ -1,0 +1,4 @@
+LangChain is a framework that allows you to build your own automated
+AI tools. Lets say we want to create an email generator tool. You need
+to read the LangChain docs and you can install the python version or the
+javascript version.
