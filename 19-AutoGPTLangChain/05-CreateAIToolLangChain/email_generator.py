@@ -1,6 +1,4 @@
-For our email_generator.py file to be able to use langchain we write
-the code:
-"from langchain.prompts import PromptTemplate
+from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 
 llm = OpenAI(openai_api_key='your_api_key', temperature=0.0)
@@ -26,8 +24,4 @@ agent_name = input('Agent name: ')
 response = llm(prompt.format(content=content,
 customer_name=customer_name, agent_name=agent_name))
 
-print(response)"
-
-When we run the code and type in the inputs LangChain will do
-it's job and send those requests to OpenAI. Then we get back a
-nice email.
+print(response)
