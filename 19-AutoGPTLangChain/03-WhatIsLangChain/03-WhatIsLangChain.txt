@@ -1,0 +1,6 @@
+LangChain isn't an alternative to AutoGPT but instead is a framework
+that you can use in your code to build your own automated AI workflows.
+Using LangChain requires some coding skills. It's a package meant to be
+used in your own Python or JavaScript code so that you can build your
+own automated AI programs with the help of LangChain. You could build:
+An email generator, a web research tool or really anything else.
